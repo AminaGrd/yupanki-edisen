@@ -44,6 +44,7 @@
 		 * @hooked storefront_primary_navigation_wrapper_close - 68
 		 */
 		// do_action( 'storefront_header' ); -->
+		<!-- Modifications childstorefront -->
 		<nav>
 			<div class="nav__logo">
         		<img onclick="location.href='<?php bloginfo('wpurl'); ?>';" src="<?php bloginfo('wpurl'); ?>/wp-content/uploads/2022/09/logo-edisen_couleur.jpg" alt="icone du site">
@@ -91,7 +92,7 @@
 				<div></div>
     		</div>
 		</nav>
-		
+		<!-- Fin des modifications -->
 	</header><!-- #masthead -->
 
 	<?php

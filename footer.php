@@ -16,7 +16,53 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="col-full">
-
+			<!-- Modifications childstorefront -->
+			<div class="footer-infos-legals">
+				<div class="site-footer-infos">
+					<div class="footer-menu">
+						<?php wp_nav_menu(array('theme_location' => 'nav')); ?>
+					</div>
+					<div class="footer-logo">
+						<img onclick="location.href='<?php bloginfo('wpurl'); ?>';" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/logo-edisen_white.svg" alt="icone du site">
+					</div>
+					<div class="footer-contact">
+						<ul>
+							<li class="list-type-place">
+								Dijon (21)
+								<ul>
+									<li>20 rue de Montmuzard</li>
+								</ul>
+							</li>
+							<li class="list-type-place">
+								Bourg-en-Bresse (01)
+								<ul>
+									<li>3 bd John Kennedy</li>
+								</ul>
+							</li>
+							<li class="contact-row">
+								<img onclick="location.href='tel:0380423951'" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/tel-icone.svg" alt="icone du site">
+								<a href="tel:0380423951">03 80 42 39 51</a>
+							</li>
+							<li class="contact-row">
+								<img onclick="location.href='mailto:contact@edisen.fr'" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/mail-icone.svg" alt="icone mail">
+								<a href="mailto:contact@edisen.fr">contact@edisen.fr</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="site-footer-legals">
+					<ul>
+						<li>
+							<a href="#">Mentions légales</a>
+						</li>
+						<span></span>
+						<li>
+							<a href="#">Site réalisé par Yupanki</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Fin des modifications -->
 			<?php
 			/**
 			 * Functions hooked in to storefront_footer action
@@ -36,6 +82,7 @@
 
 <?php wp_footer(); ?>
 <!-- <script src="<?php bloginfo('template_directory'); ?>/assets/js/header.js"></script> -->
+<!-- Modifications childstorefront script -->
 <script>
 const burger = document.getElementById('burger');
 const inMenu = document.querySelector("nav ul.menu");
@@ -69,5 +116,6 @@ function crossMenu() {
     }
 }
 </script>
+<!-- Fin des modifications script -->
 </body>
 </html>
