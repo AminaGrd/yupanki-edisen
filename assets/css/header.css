@@ -1,0 +1,128 @@
+#masthead {
+  padding: 0;
+  margin: 0;
+}
+#masthead .storefront_header_wp {
+  display: none;
+}
+#masthead .header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 90vw;
+  height: 5.5rem;
+  padding-top: 0;
+}
+#masthead .header-nav .nav__logo {
+  width: 10rem;
+}
+#masthead .header-nav .menu-nav-container #menu-nav {
+  display: flex;
+  margin: 0;
+}
+#masthead .header-nav .menu-nav-container #menu-nav > li {
+  padding: 0 0.8rem;
+  border-right: solid red 2px;
+}
+#masthead .header-nav .menu-nav-container #menu-nav li {
+  list-style-type: none;
+}
+#masthead .header-nav .menu-nav-container #menu-nav li:last-child {
+  display: none;
+}
+#masthead .header-nav .menu-nav-container #menu-nav li a {
+  color: #2CA4DC;
+  text-transform: uppercase;
+}
+#masthead .header-nav .menu-nav-container #menu-nav li a:hover {
+  color: #FF421A;
+}
+#masthead .header-nav .header-account-basket {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#masthead .header-nav .header-account-basket .header-account > ul {
+  position: relative;
+  margin: 0;
+  list-style-type: none;
+  margin-right: 1.5rem;
+  padding: 2rem 0;
+}
+#masthead .header-nav .header-account-basket .header-account > ul li a {
+  color: #2CA4DC;
+  text-transform: uppercase;
+}
+#masthead .header-nav .header-account-basket .header-account > ul li a:hover {
+  color: #FF421A;
+}
+#masthead .header-nav .header-account-basket .header-account > ul .sub-menu {
+  display: none;
+  list-style-type: none;
+  margin: 0;
+  position: absolute;
+  top: 5.25rem;
+  left: -1rem;
+  width: 12rem;
+  /* 	background-color: #F1FAFF; */
+  background-color: white;
+}
+#masthead .header-nav .header-account-basket .header-account > ul .sub-menu li {
+  padding: 0.5rem 0 0.5rem 1rem;
+  text-transform: none;
+}
+#masthead .header-nav .header-account-basket .header-account > ul .sub-menu li a {
+  text-transform: none;
+  color: #FF421A;
+  font-size: 0.9rem;
+}
+#masthead .header-nav .header-account-basket .header-account > ul .sub-menu li a:hover {
+  text-decoration: underline;
+}
+#masthead .header-nav .header-account-basket .header-account > ul:hover .sub-menu {
+  display: block;
+}
+#masthead .header-nav .header-account-basket .header-price .site-header-cart {
+  width: 16rem;
+}
+#masthead .header-nav .header-account-basket .header-price .site-header-cart .header-cart__price .cart-contents::after {
+  float: none;
+  padding-left: 3rem;
+  color: #FF421A;
+}
+@media (max-width: 1110px) {
+  #masthead .header-nav .nav__logo {
+    width: 6rem;
+  }
+  #masthead .header-nav .menu-nav-container #menu-nav li a {
+    font-size: 0.9rem;
+  }
+  #masthead .header-nav .header-account-basket .header-account > ul {
+    margin: 0;
+  }
+  #masthead .header-nav .header-account-basket .header-account > ul li a {
+    font-size: 0.9rem;
+  }
+  #masthead .header-nav .header-account-basket .header-price .site-header-cart {
+    width: 4rem;
+  }
+  #masthead .header-nav .header-account-basket .header-price .site-header-cart li:last-child {
+    display: none;
+  }
+  #masthead .header-nav .header-account-basket .header-price .site-header-cart li .cart-contents::after {
+    padding-left: 1.5rem;
+  }
+  #masthead .header-nav .header-account-basket .header-price .site-header-cart li .cart-contents span {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  #masthead .storefront_header_wp {
+    display: block;
+  }
+  #masthead .header-nav {
+    display: none;
+  }
+}/*# sourceMappingURL=header.css.map */

@@ -28,8 +28,6 @@
 	<?php do_action( 'storefront_before_header' ); ?>
 
 	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>">
-
-		<!-- <?php?> -->
 		<!-- /**
 		 * Functions hooked into storefront_header action
 		 *
@@ -48,50 +46,51 @@
 		// do_action( 'storefront_header' ); -->
 		<div class="header-nav">
 			<div class="nav__logo">
-        	<img onclick="location.href='<?php bloginfo('wpurl'); ?>';" src="<?php bloginfo('wpurl'); ?>/wp-content/uploads/2022/09/logo-edisen_couleur.jpg" alt="icone du site">
-    	</div>
-		<?php wp_nav_menu(array('theme_location' => 'nav')); ?>
-		<div class="header-account-basket">
-			<div class="header-account">
-				<ul>
-					<li>
-						<a href="#">Mon compte</a>
-					</li>
-					<ul class="sub-menu">
+        		<img onclick="location.href='<?php bloginfo('wpurl'); ?>';" src="<?php bloginfo('wpurl'); ?>/wp-content/uploads/2022/09/logo-edisen_couleur.jpg" alt="icone du site">
+    		</div>
+			<?php wp_nav_menu(array('theme_location' => 'nav')); ?>
+			<div class="header-account-basket">
+				<div class="header-account">
+					<ul>
 						<li>
-							<a href="#">Mes commandes</a>
+							<a href="<?php bloginfo('wpurl'); ?>/mon-compte/">Mon compte</a>
+						</li>
+						<ul class="sub-menu">
+							<li>
+								<a href="<?php bloginfo('wpurl'); ?>/mon-compte/orders/">Mes commandes</a>
+							</li>
+							<li>
+								<a href="<?php bloginfo('wpurl'); ?>/mon-compte/edit-address/">Mes adresses</a>
+							</li>
+							<li>
+								<a href="<?php bloginfo('wpurl'); ?>/mon-compte/edit-account/">Détails de mon compte</a>
+							</li>
+						</ul>
+					</ul>		
+				</div>
+				<div class="header-price">
+					<ul id="site-header-cart" class="site-header-cart menu">
+						<li class="header-cart__price">
+							<a class="cart-contents" href="http://localhost/edisen/panier/" title="Afficher votre panier">
+								<span class="woocommerce-Price-amount amount">0,00&nbsp;<span class="woocommerce-Price-currencySymbol">€</span></span> <span class="count">0 article</span>
+							</a>
 						</li>
 						<li>
-							<a href="#">Mes adresses</a>
-						</li>
-						<li>
-							<a href="#">Détails de mon compte</a>
+							<div class="widget woocommerce widget_shopping_cart">
+								<div class="widget_shopping_cart_content">
+									<p class="woocommerce-mini-cart__empty-message">Votre panier est vide.</p>
+								</div>
+							</div>			
 						</li>
 					</ul>
-				</ul>		
+				</div>
+			</div>
 		</div>
-		<div class="header-price">
-			<ul id="site-header-cart" class="site-header-cart menu">
-				<li class="header-cart__price">
-					<a class="cart-contents" href="http://localhost/edisen/panier/" title="Afficher votre panier">
-						<span class="woocommerce-Price-amount amount">0,00&nbsp;<span class="woocommerce-Price-currencySymbol">€</span></span> <span class="count">0 article</span>
-					</a>
-				</li>
-				<li>
-					<div class="widget woocommerce widget_shopping_cart">
-						<div class="widget_shopping_cart_content">
-							<p class="woocommerce-mini-cart__empty-message">Votre panier est vide.</p>
-						</div>
-					</div>			
-				</li>
-			</ul>
+		<div class="storefront_header_wp">
+			<?php
+			do_action( 'storefront_header' );
+			?>
 		</div>
-		
-		</div>
-		
-		</div>
-		
-
 	</header><!-- #masthead -->
 
 	<?php
