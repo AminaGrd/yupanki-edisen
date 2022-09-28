@@ -15,6 +15,7 @@ nav{
 	height: 5.5rem;
 	padding-top: 0;
     .nav__logo{
+        cursor: pointer;
         width: 10rem;
         margin-left: 5vw;
     }
@@ -24,7 +25,7 @@ nav{
             margin: 0;
             >li{
                 padding: 0 0.8rem;
-	            border-right: solid red 2px;
+	            border-right: solid var(--mainRed) 2px;
             }
             li{
                 list-style-type: none;
@@ -32,10 +33,15 @@ nav{
                     display: none;
                 }
                 a{
-                    color: #2CA4DC;
+                    color: var(--mainBlue);
 	                text-transform:uppercase;
                     &:hover{
-                        color: #FF421A;
+                        color: var(--mainRed);
+                    }
+                }
+                &.current-menu-item{
+                    a{
+                        color: var(--mainRed);
                     }
                 }
             }
@@ -55,10 +61,10 @@ nav{
                 padding: 2rem 0;
                 li{
                     a{
-                        color: #2CA4DC;
+                        color: var(--mainBlue);
                         text-transform: uppercase;
                         &:hover{
-                            color: #FF421A;
+                            color: var(--mainRed);
                         }
                     }
                 }
@@ -77,7 +83,7 @@ nav{
                         text-transform: none;
                         a{
                             text-transform: none;
-                            color: #FF421A;
+                            color: var(--mainRed);
                             font-size: 0.9rem;
                             &:hover{
                                 text-decoration: underline;
@@ -99,7 +105,45 @@ nav{
                     .cart-contents::after{
                         float: none;
                         padding-left: 3rem;
-                        color: #FF421A;
+                        color: var(--mainRed);
+                    }
+                }
+                li{
+                    .widget_shopping_cart{
+                        background-color: white;
+                        .widget_shopping_cart_content{
+                            >ul{
+                                background-color: white;
+                                >li{
+                                    a{
+                                        color: var(--mainBlue);
+                                    }
+                                }
+                            }
+                            >p{
+                                background-color: white;
+                                &.woocommerce-mini-cart__buttons{
+                                    .button{
+                                        &:first-child{
+                                            background-color: var(--mainRedLight);
+                                            &:hover{
+                                                box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25);
+                                            }
+                                        }
+                                        &:last-child{
+                                            background-color: var(--mainRed);
+                                            &:hover{
+                                                background-color: var(--mainBlue);
+                                            }
+                                            &:active{
+                                                background-color: var(--mainBlue);
+                                                box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -110,10 +154,6 @@ nav{
         margin-right: 5vw;
     }
 
-// .header-nav .menu-nav-container #menu-nav .sub-menu{
-// 	margin: 0;
-// 	display: none;
-// }
 
     @media (max-width: 1110px) {
         .nav__logo{
@@ -162,31 +202,7 @@ nav{
 }
 
     @media (max-width: 767px){
-        // .storefront_header_wp{
-        //     display: block;
-        //     .col-full{
-        //         #site-navigation{
-        //             #site-navigation-menu-toggle{
-        //                 border: none;
-        //                 &::before{
-        //                     width: 2rem;
-        //                 }
-        //                 >span{
-        //                     color: transparent;
-        //                     &::before{
-        //                         width: 2rem;
-                                
-        //                     }
-        //                 }
-        //                 &::after{
-        //                     width: 2rem;
-        //                 }
-        //             }
-        //         }
-        //     }
-        // }
         nav{
-            // display: none;
             position : relative;
             .nav__logo{
                 width: 10rem;
@@ -194,7 +210,6 @@ nav{
             .menu-nav-container{
                 display: none;
                 position: absolute;
-                // top: 5.5rem;
                 min-width: 100vw;
                 margin: 0;
                 &.menu-nav-container--show{
@@ -213,12 +228,12 @@ nav{
                 }
                 #menu-nav{
                 flex-direction: column;
-                background-color:rgb(255, 255, 255, 0.95);
+                background-color:rgb(255, 255, 255);
                     >li{
                         width: 100%;
                         text-align: left;
                         padding: 1rem 0 1rem 2rem;
-                        border-bottom: 0.5px solid #FF421A;
+                        border-bottom: 0.5px solid var(--mainRed);
                         border-right: none;
                     }
                     // .menu-item-has-children{
