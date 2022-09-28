@@ -17,7 +17,7 @@ nav{
     .nav__logo{
         cursor: pointer;
         width: 10rem;
-        margin-left: 5vw;
+        margin-left: 9vw;
     }
     .menu-nav-container{
         #menu-nav{
@@ -60,6 +60,8 @@ nav{
                 margin-right: 1.5rem;
                 padding: 2rem 0;
                 li{
+                    border-right: solid var(--mainRed) 2px;
+                    padding-right: 1rem;
                     a{
                         color: var(--mainBlue);
                         text-transform: uppercase;
@@ -158,6 +160,7 @@ nav{
     @media (max-width: 1110px) {
         .nav__logo{
         width: 8rem;
+        margin-left: 5rem;
         }
         .menu-nav-container{
             #menu-nav{

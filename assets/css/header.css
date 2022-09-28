@@ -18,7 +18,7 @@
 #masthead nav .nav__logo {
   cursor: pointer;
   width: 10rem;
-  margin-left: 5vw;
+  margin-left: 9vw;
 }
 #masthead nav .menu-nav-container #menu-nav {
   display: flex;
@@ -56,6 +56,10 @@
   list-style-type: none;
   margin-right: 1.5rem;
   padding: 2rem 0;
+}
+#masthead nav .header-account-basket .header-account > ul li {
+  border-right: solid var(--mainRed) 2px;
+  padding-right: 1rem;
 }
 #masthead nav .header-account-basket .header-account > ul li a {
   color: var(--mainBlue);
@@ -133,6 +137,7 @@
 @media (max-width: 1110px) {
   #masthead nav .nav__logo {
     width: 8rem;
+    margin-left: 5rem;
   }
   #masthead nav .menu-nav-container #menu-nav li a {
     font-size: 0.9rem;
