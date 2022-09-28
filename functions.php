@@ -13,10 +13,16 @@ add_action('wp_enqueue_scripts', 'register_assets');
 function register_assets(){
     
     wp_enqueue_style(
-          'header-css',
-          get_stylesheet_directory_uri().'/assets/css/header.css',
-          array(),
-          '1.0'
+		'header-css',
+		get_stylesheet_directory_uri().'/assets/css/header.css',
+		array(),
+		'1.0'
     );
+	// wp_enqueue_script(
+	// 	'header-js',
+	// 	get_stylesheet_directory_uri().'/assets/js/header.js',
+	// 	array(),
+	// 	'1.0'
+    // );
 
 }

@@ -44,7 +44,7 @@
 		 * @hooked storefront_primary_navigation_wrapper_close - 68
 		 */
 		// do_action( 'storefront_header' ); -->
-		<div class="header-nav">
+		<nav>
 			<div class="nav__logo">
         		<img onclick="location.href='<?php bloginfo('wpurl'); ?>';" src="<?php bloginfo('wpurl'); ?>/wp-content/uploads/2022/09/logo-edisen_couleur.jpg" alt="icone du site">
     		</div>
@@ -85,12 +85,13 @@
 					</ul>
 				</div>
 			</div>
-		</div>
-		<div class="storefront_header_wp">
-			<?php
-			do_action( 'storefront_header' );
-			?>
-		</div>
+			<div class="nav__burger" id="burger">
+				<div></div>
+				<div></div>
+				<div></div>
+    		</div>
+		</nav>
+		
 	</header><!-- #masthead -->
 
 	<?php
@@ -105,7 +106,8 @@
 
 	<div id="content" class="site-content" tabindex="-1">
 		<div class="col-full">
-			
 
 		<?php
 		do_action( 'storefront_content_top' );
+
+		

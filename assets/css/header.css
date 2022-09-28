@@ -5,60 +5,62 @@
 #masthead .storefront_header_wp {
   display: none;
 }
-#masthead .header-nav {
+#masthead nav {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   margin: auto;
-  width: 90vw;
+  width: 100vw;
   height: 5.5rem;
   padding-top: 0;
 }
-#masthead .header-nav .nav__logo {
+#masthead nav .nav__logo {
   width: 10rem;
+  margin-left: 5vw;
 }
-#masthead .header-nav .menu-nav-container #menu-nav {
+#masthead nav .menu-nav-container #menu-nav {
   display: flex;
   margin: 0;
 }
-#masthead .header-nav .menu-nav-container #menu-nav > li {
+#masthead nav .menu-nav-container #menu-nav > li {
   padding: 0 0.8rem;
   border-right: solid red 2px;
 }
-#masthead .header-nav .menu-nav-container #menu-nav li {
+#masthead nav .menu-nav-container #menu-nav li {
   list-style-type: none;
 }
-#masthead .header-nav .menu-nav-container #menu-nav li:last-child {
+#masthead nav .menu-nav-container #menu-nav li:last-child {
   display: none;
 }
-#masthead .header-nav .menu-nav-container #menu-nav li a {
+#masthead nav .menu-nav-container #menu-nav li a {
   color: #2CA4DC;
   text-transform: uppercase;
 }
-#masthead .header-nav .menu-nav-container #menu-nav li a:hover {
+#masthead nav .menu-nav-container #menu-nav li a:hover {
   color: #FF421A;
 }
-#masthead .header-nav .header-account-basket {
+#masthead nav .header-account-basket {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-right: 5vw;
 }
-#masthead .header-nav .header-account-basket .header-account > ul {
+#masthead nav .header-account-basket .header-account > ul {
   position: relative;
   margin: 0;
   list-style-type: none;
   margin-right: 1.5rem;
   padding: 2rem 0;
 }
-#masthead .header-nav .header-account-basket .header-account > ul li a {
+#masthead nav .header-account-basket .header-account > ul li a {
   color: #2CA4DC;
   text-transform: uppercase;
 }
-#masthead .header-nav .header-account-basket .header-account > ul li a:hover {
+#masthead nav .header-account-basket .header-account > ul li a:hover {
   color: #FF421A;
 }
-#masthead .header-nav .header-account-basket .header-account > ul .sub-menu {
+#masthead nav .header-account-basket .header-account > ul .sub-menu {
   display: none;
   list-style-type: none;
   margin: 0;
@@ -69,60 +71,298 @@
   /* 	background-color: #F1FAFF; */
   background-color: white;
 }
-#masthead .header-nav .header-account-basket .header-account > ul .sub-menu li {
+#masthead nav .header-account-basket .header-account > ul .sub-menu li {
   padding: 0.5rem 0 0.5rem 1rem;
   text-transform: none;
 }
-#masthead .header-nav .header-account-basket .header-account > ul .sub-menu li a {
+#masthead nav .header-account-basket .header-account > ul .sub-menu li a {
   text-transform: none;
   color: #FF421A;
   font-size: 0.9rem;
 }
-#masthead .header-nav .header-account-basket .header-account > ul .sub-menu li a:hover {
+#masthead nav .header-account-basket .header-account > ul .sub-menu li a:hover {
   text-decoration: underline;
 }
-#masthead .header-nav .header-account-basket .header-account > ul:hover .sub-menu {
+#masthead nav .header-account-basket .header-account > ul:hover .sub-menu {
   display: block;
 }
-#masthead .header-nav .header-account-basket .header-price .site-header-cart {
+#masthead nav .header-account-basket .header-price .site-header-cart {
   width: 16rem;
 }
-#masthead .header-nav .header-account-basket .header-price .site-header-cart .header-cart__price .cart-contents::after {
+#masthead nav .header-account-basket .header-price .site-header-cart .header-cart__price .cart-contents::after {
   float: none;
   padding-left: 3rem;
   color: #FF421A;
 }
+#masthead nav .nav__burger {
+  display: none;
+  margin-right: 5vw;
+}
 @media (max-width: 1110px) {
-  #masthead .header-nav .nav__logo {
-    width: 6rem;
+  #masthead nav .nav__logo {
+    width: 8rem;
   }
-  #masthead .header-nav .menu-nav-container #menu-nav li a {
+  #masthead nav .menu-nav-container #menu-nav li a {
     font-size: 0.9rem;
   }
-  #masthead .header-nav .header-account-basket .header-account > ul {
+  #masthead nav .header-account-basket .header-account > ul {
     margin: 0;
   }
-  #masthead .header-nav .header-account-basket .header-account > ul li a {
+  #masthead nav .header-account-basket .header-account > ul li a {
     font-size: 0.9rem;
   }
-  #masthead .header-nav .header-account-basket .header-price .site-header-cart {
+  #masthead nav .header-account-basket .header-price .site-header-cart {
     width: 4rem;
   }
-  #masthead .header-nav .header-account-basket .header-price .site-header-cart li:last-child {
+  #masthead nav .header-account-basket .header-price .site-header-cart li:last-child {
     display: none;
   }
-  #masthead .header-nav .header-account-basket .header-price .site-header-cart li .cart-contents::after {
+  #masthead nav .header-account-basket .header-price .site-header-cart li .cart-contents::after {
     padding-left: 1.5rem;
   }
-  #masthead .header-nav .header-account-basket .header-price .site-header-cart li .cart-contents span {
+  #masthead nav .header-account-basket .header-price .site-header-cart li .cart-contents span {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  #masthead .storefront_header_wp {
+  #masthead nav {
+    position: relative;
+  }
+  #masthead nav .nav__logo {
+    width: 10rem;
+  }
+  #masthead nav .menu-nav-container {
+    display: none;
+    position: absolute;
+    min-width: 100vw;
+    margin: 0;
+  }
+  #masthead nav .menu-nav-container.menu-nav-container--show {
+    display: block;
+    order: 3;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-name: showMenu;
+            animation-name: showMenu;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  #masthead nav .menu-nav-container.menu-nav-container--unshow {
+    display: block;
+    order: 3;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-name: unshowMenu;
+            animation-name: unshowMenu;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  #masthead nav .menu-nav-container #menu-nav {
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+  #masthead nav .menu-nav-container #menu-nav > li {
+    width: 100%;
+    text-align: left;
+    padding: 1rem 0 1rem 2rem;
+    border-bottom: 0.5px solid #FF421A;
+    border-right: none;
+  }
+  #masthead nav .menu-nav-container #menu-nav li:last-child {
     display: block;
   }
-  #masthead .header-nav {
+  #masthead nav .header-account-basket .header-account {
     display: none;
+  }
+  #masthead nav .nav__burger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25px;
+  }
+  #masthead nav .nav__burger > div {
+    height: 4px;
+    width: 35px;
+    background-color: black;
+    border-radius: 20px;
+  }
+  #masthead nav .nav__burger.nav__burger--cross div:nth-child(1) {
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-name: crossMenu1;
+            animation-name: crossMenu1;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  #masthead nav .nav__burger.nav__burger--cross div:nth-child(2) {
+    -webkit-animation-duration: 0.05s;
+            animation-duration: 0.05s;
+    -webkit-animation-name: crossMenu2;
+            animation-name: crossMenu2;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  #masthead nav .nav__burger.nav__burger--cross div:nth-child(3) {
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-name: crossMenu3;
+            animation-name: crossMenu3;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  #masthead nav .nav__burger.nav__burger--burger div:nth-child(1) {
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-name: burgerMenu1;
+            animation-name: burgerMenu1;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #masthead nav .nav__burger.nav__burger--burger div:nth-child(2) {
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-name: burgerMenu2;
+            animation-name: burgerMenu2;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  #masthead nav .nav__burger.nav__burger--burger div:nth-child(3) {
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-name: burgerMenu3;
+            animation-name: burgerMenu3;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+}
+
+@-webkit-keyframes showMenu {
+  from {
+    top: -400px;
+  }
+  to {
+    top: 5.5rem;
+  }
+}
+
+@keyframes showMenu {
+  from {
+    top: -400px;
+  }
+  to {
+    top: 5.5rem;
+  }
+}
+@-webkit-keyframes unshowMenu {
+  from {
+    top: 5.5rem;
+  }
+  to {
+    top: -400px;
+  }
+}
+@keyframes unshowMenu {
+  from {
+    top: 5.5rem;
+  }
+  to {
+    top: -400px;
+  }
+}
+@-webkit-keyframes crossMenu1 {
+  from {
+    transform: rotate(0deg) translate(0px, 0px);
+  }
+  to {
+    transform: rotate(45deg) translate(8px, 5px);
+  }
+}
+@keyframes crossMenu1 {
+  from {
+    transform: rotate(0deg) translate(0px, 0px);
+  }
+  to {
+    transform: rotate(45deg) translate(8px, 5px);
+  }
+}
+@-webkit-keyframes crossMenu2 {
+  from {
+    opacity: 100;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes crossMenu2 {
+  from {
+    opacity: 100;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes crossMenu3 {
+  from {
+    transform: rotate(0deg) translate(0px, 0px);
+  }
+  to {
+    transform: rotate(-45deg) translate(9px, -7px);
+  }
+}
+@keyframes crossMenu3 {
+  from {
+    transform: rotate(0deg) translate(0px, 0px);
+  }
+  to {
+    transform: rotate(-45deg) translate(9px, -7px);
+  }
+}
+@-webkit-keyframes burgerMenu1 {
+  from {
+    transform: rotate(45deg) translate(8px, 5px);
+  }
+  to {
+    transform: rotate(0deg) translate(0px, 0px);
+  }
+}
+@keyframes burgerMenu1 {
+  from {
+    transform: rotate(45deg) translate(8px, 5px);
+  }
+  to {
+    transform: rotate(0deg) translate(0px, 0px);
+  }
+}
+@-webkit-keyframes burgerMenu2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+@keyframes burgerMenu2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+@-webkit-keyframes burgerMenu3 {
+  from {
+    transform: rotate(-45deg) translate(9px, -7px);
+  }
+  to {
+    transform: rotate(0deg) translate(0px, 0px);
+  }
+}
+@keyframes burgerMenu3 {
+  from {
+    transform: rotate(-45deg) translate(9px, -7px);
+  }
+  to {
+    transform: rotate(0deg) translate(0px, 0px);
   }
 }/*# sourceMappingURL=header.css.map */

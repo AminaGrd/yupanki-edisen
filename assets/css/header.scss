@@ -5,17 +5,18 @@
         display: none;
     }
 
-.header-nav{
+nav{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
 	margin: auto;
-	width: 90vw;
+	width: 100vw;
 	height: 5.5rem;
 	padding-top: 0;
     .nav__logo{
         width: 10rem;
+        margin-left: 5vw;
     }
     .menu-nav-container{
         #menu-nav{
@@ -44,6 +45,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        margin-right: 5vw;
         .header-account{
             >ul{
                 position: relative;
@@ -103,6 +105,10 @@
             }
         }
     }
+    .nav__burger{
+        display: none;
+        margin-right: 5vw;
+    }
 
 // .header-nav .menu-nav-container #menu-nav .sub-menu{
 // 	margin: 0;
@@ -111,7 +117,7 @@
 
     @media (max-width: 1110px) {
         .nav__logo{
-        width: 6rem;
+        width: 8rem;
         }
         .menu-nav-container{
             #menu-nav{
@@ -156,26 +162,206 @@
 }
 
     @media (max-width: 767px){
-        .storefront_header_wp{
-            display: block;
-        }
-        .header-nav{
-            display: none;
-        }
-        // .menu-nav-container{
-        //     #menu-nav{
-        //         li{
-        //             &:last-child{
-        //                 display: block;
+        // .storefront_header_wp{
+        //     display: block;
+        //     .col-full{
+        //         #site-navigation{
+        //             #site-navigation-menu-toggle{
+        //                 border: none;
+        //                 &::before{
+        //                     width: 2rem;
+        //                 }
+        //                 >span{
+        //                     color: transparent;
+        //                     &::before{
+        //                         width: 2rem;
+                                
+        //                     }
+        //                 }
+        //                 &::after{
+        //                     width: 2rem;
+        //                 }
         //             }
         //         }
         //     }
         // }
-        // .header-account-basket{
-        //     .header-account{
-        //         display: none;
-        //     }
-        // }
+        nav{
+            // display: none;
+            position : relative;
+            .nav__logo{
+                width: 10rem;
+            }
+            .menu-nav-container{
+                display: none;
+                position: absolute;
+                // top: 5.5rem;
+                min-width: 100vw;
+                margin: 0;
+                &.menu-nav-container--show{
+                    display: block;
+                    order: 3;
+                    animation-duration: 0.5s;
+                    animation-name: showMenu;
+                    animation-fill-mode: forwards;
+                }
+                &.menu-nav-container--unshow{
+                    display: block;
+                    order: 3;
+                    animation-duration: 0.5s;
+                    animation-name: unshowMenu;
+                    animation-fill-mode: forwards;
+                }
+                #menu-nav{
+                flex-direction: column;
+                background-color:rgb(255, 255, 255, 0.95);
+                    >li{
+                        width: 100%;
+                        text-align: left;
+                        padding: 1rem 0 1rem 2rem;
+                        border-bottom: 0.5px solid #FF421A;
+                        border-right: none;
+                    }
+                    // .menu-item-has-children{
+                    //     .sub-menu{
+                    //         li{
+                    //             a{
+                    //             }
+                    //         }
+                    //     }
+                    // }
+                    li{
+                        &:last-child{
+                            display: block;
+                        }
+                    }
+                }
+            }
+            
+            .header-account-basket{
+                .header-account{
+                    display: none;
+                }
+            }
+            .nav__burger{
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 25px;
+                >div{
+                    height: 4px;
+                    width: 35px;
+                    background-color: black;
+                    border-radius: 20px;
+                }
+                &.nav__burger--cross{
+                    div:nth-child(1){
+                        animation-duration: 0.5s;
+                        animation-name: crossMenu1;
+                        animation-fill-mode: forwards;
+                        
+                    }
+                    div:nth-child(2){
+                        animation-duration: 0.05s;
+                        animation-name: crossMenu2;
+                        animation-fill-mode: forwards;
+                        
+                    }
+                    div:nth-child(3){
+                        animation-duration: 0.5s;
+                        animation-name: crossMenu3;
+                        animation-fill-mode: forwards;
+                        
+                    }
+                }
+                &.nav__burger--burger{
+                    div:nth-child(1){
+                        animation-duration: 0.5s;
+                        animation-name: burgerMenu1;
+                        animation-fill-mode: both;
+                        
+                    }
+                    div:nth-child(2){
+                        animation-duration: 0.5s;
+                        animation-name: burgerMenu2;
+                        animation-fill-mode: both;
+                        
+                    }
+                    div:nth-child(3){
+                        animation-duration: 0.5s;
+                        animation-name: burgerMenu3;
+                        animation-fill-mode: both;
+                        
+                    }
+                }
+            }
+        }
     }
 
+}
+@keyframes showMenu {
+    from {
+        top: -400px;
+    }
+    to {
+        top: 5.5rem;
+    }
+}
+@keyframes unshowMenu {
+    from {
+        top: 5.5rem;
+    }
+    to {
+        top: -400px;
+    }
+}
+
+@keyframes crossMenu1 {
+    from {
+        transform: rotate(0deg) translate(0px, 0px);
+    }
+    to {
+        transform: rotate(45deg) translate(8px, 5px);
+    }
+}
+@keyframes crossMenu2 {
+    from {
+        opacity: 100;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@keyframes crossMenu3 {
+    from {
+        transform: rotate(0deg) translate(0px, 0px);
+    }
+    to {
+        transform: rotate(-45deg) translate(9px, -7px);
+    }
+}
+
+@keyframes burgerMenu1 {
+    from {
+        transform: rotate(45deg) translate(8px, 5px);
+    }
+    to {
+        transform: rotate(0deg) translate(0px, 0px);
+    }
+}
+@keyframes burgerMenu2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+    }
+}
+@keyframes burgerMenu3 {
+    from {
+        transform: rotate(-45deg) translate(9px, -7px);
+    }
+    to {
+        transform: rotate(0deg) translate(0px, 0px);
+    }
 }
