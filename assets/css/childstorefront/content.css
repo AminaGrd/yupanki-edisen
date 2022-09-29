@@ -1,3 +1,19 @@
+.storefront-breadcrumb {
+  color: var(--mainRed);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.storefront-breadcrumb .woocommerce-breadcrumb a {
+  color: var(--mainBlue);
+  text-decoration: none;
+}
+.storefront-breadcrumb .woocommerce-breadcrumb a::before {
+  color: var(--mainRed);
+}
+.storefront-breadcrumb .woocommerce-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
 #content .col-full {
   padding: 0;
 }
@@ -6,6 +22,12 @@
 }
 #content .col-full #main > .col-full {
   margin: 0;
+}
+#content .col-full #main h1 {
+  color: var(--mainRed);
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
 }
 #content .col-full #main .entry-content {
   width: 100vw;
@@ -155,5 +177,11 @@
   }
   #content .col-full #main .entry-content .wpcf7-form > div:nth-child(7) input {
     width: 90vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .storefront-breadcrumb {
+    margin-bottom: 1rem !important;
   }
 }/*# sourceMappingURL=content.css.map */

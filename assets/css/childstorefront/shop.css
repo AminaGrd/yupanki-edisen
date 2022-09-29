@@ -1,0 +1,38 @@
+#content .col-full #main .woocommerce-products-header {
+  padding-bottom: 4rem;
+}
+#content .col-full #main .storefront-sorting {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#content .col-full #main .storefront-sorting .woocommerce-ordering .orderby {
+  height: 2rem;
+  border: solid 1px var(--mainBlue);
+}
+#content .col-full #main .storefront-sorting .woocommerce-ordering .orderby > option.selected {
+  background-color: red;
+}
+#content .col-full #main .products .product {
+  background-color: white;
+}
+#content .col-full #main .products .product h2 {
+  padding: 0 0.3rem;
+  color: var(--mainBlue);
+  height: 3rem;
+}
+#content .col-full #main .products .product h2:hover {
+  color: var(--mainRed);
+}
+#content .col-full #main .products .product .button {
+  margin-bottom: 0;
+  width: 100%;
+  background-color: var(--mainBlue);
+  color: white;
+}
+#content .col-full #main .products .product .button:hover {
+  background-color: var(--mainRed);
+}
+#content .col-full #main .products .product .button:active {
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=shop.css.map */
