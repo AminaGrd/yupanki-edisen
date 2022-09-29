@@ -48,6 +48,12 @@ function register_assets(){
 		array(),
 		'1.0'
     );
+	wp_enqueue_style(
+		'product-css',
+		get_stylesheet_directory_uri().'/assets/css/childstorefront/product.css',
+		array(),
+		'1.0'
+    );
 	// wp_enqueue_script(
 	// 	'header-js',
 	// 	get_stylesheet_directory_uri().'/assets/js/header.js',

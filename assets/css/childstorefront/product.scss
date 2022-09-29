@@ -1,0 +1,121 @@
+#content{
+.col-full{
+    #main{
+        .product{
+            .summary{
+                .cart{
+                    button{
+                        background-color: var(--mainBlue);
+                        color: white;
+                        &:hover{
+                            background-color: var(--mainRed);
+                        }
+                        &:active{
+                            box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+                        }
+                    }
+                }
+                .product_meta{
+                    a{
+                        color: var(--mainRed);
+                    }
+                }
+            }
+            .products{
+                >h2{
+                    color: var(--mainBlue);
+                    font-weight: bold;
+                    font-size: 2.2rem;
+                    text-align: left;
+                }
+            }
+        }
+        .woocommerce-tabs{
+            display: flex;
+            flex-direction: column;
+            width: 70rem;
+            .tabs{
+                .description_tab{
+                    a{
+                        color: var(--mainRed);
+                    }
+                    &.active{
+                        a{
+                            color: black;
+                        }
+                        
+                    }
+                }
+                .reviews_tab{
+                    a{
+                        color: var(--mainRed);
+                    }
+                    &.active{
+                        a{
+                            color: black;
+                        }
+                        
+                    }
+                    
+                }
+            }
+            .woocommerce-Tabs-panel--reviews{
+                #reviews{
+                    #comments{
+                        .woocommerce-noreviews{
+                            background-color: var(--mainBlue);
+                        }
+                    }
+                    #review_form_wrapper{
+                        #respond{
+                            #commentform{
+                                .comment-form-comment{
+                                    textarea{
+                                        background-color: white;
+                                        // width: 95%;
+                                    }
+                                }
+                                .form-submit{
+                                    input{
+                                        background-color: var(--mainBlue);
+                                        color: white;
+                                        border-radius: 0;
+                                        &:hover{
+                                            background-color: var(--mainRed);
+                                        }
+                                        &:active{
+                                            box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
+.storefront-sticky-add-to-cart{
+    .storefront-sticky-add-to-cart__content{
+        .storefront-sticky-add-to-cart__content-product-info{
+            .storefront-sticky-add-to-cart__content-title{
+                strong{
+                    color: var(--mainBlue);
+                }
+            }
+        }
+        .storefront-sticky-add-to-cart__content-button{
+            background-color: var(--mainRed);
+            color: white;
+            &:hover{
+                background-color: var(--mainBlue);
+            }
+            &:active{
+                box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+    
+}
