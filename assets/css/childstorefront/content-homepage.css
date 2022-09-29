@@ -1,3 +1,8 @@
 #content .col-full .storefront-product-section {
   display: none;
+}
+#content .col-full .wp-block-columns {
+  max-width: 50rem;
+  margin-right: auto;
+  margin-left: auto;
 }/*# sourceMappingURL=content-homepage.css.map */
