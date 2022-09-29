@@ -1,0 +1,117 @@
+#content * {
+  max-width: 70rem;
+}
+#content .col-full {
+  padding: 0;
+}
+#content .col-full #main > .col-full {
+  margin: 0;
+}
+#content .col-full #main .entry-content {
+  width: 100vw;
+}
+#content .col-full #main .entry-content .wpcf7-form {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#content .col-full #main .entry-content .wpcf7-form > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70rem;
+}
+#content .col-full #main .entry-content .wpcf7-form > div label {
+  text-align: left;
+}
+#content .col-full #main .entry-content .wpcf7-form > div > div {
+  width: 33rem;
+}
+#content .col-full #main .entry-content .wpcf7-form > div > div label span input {
+  width: 100%;
+  background-color: white;
+  border: var(--mainBlue) 2px solid;
+}
+#content .col-full #main .entry-content .wpcf7-form > div:nth-child(4), #content .col-full #main .entry-content .wpcf7-form > div:nth-child(5), #content .col-full #main .entry-content .wpcf7-form > div:nth-child(6) {
+  margin-bottom: 1.5rem;
+}
+#content .col-full #main .entry-content .wpcf7-form > div:nth-child(4) label, #content .col-full #main .entry-content .wpcf7-form > div:nth-child(5) label, #content .col-full #main .entry-content .wpcf7-form > div:nth-child(6) label {
+  width: 70rem;
+}
+#content .col-full #main .entry-content .wpcf7-form > div:nth-child(4) label textarea, #content .col-full #main .entry-content .wpcf7-form > div:nth-child(5) label textarea, #content .col-full #main .entry-content .wpcf7-form > div:nth-child(6) label textarea {
+  background-color: white;
+  border: var(--mainBlue) 2px solid;
+}
+#content .col-full #main .entry-content .wpcf7-form > div:nth-child(5) {
+  background-color: white;
+  border: var(--mainBlue) 2px solid;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+#content .col-full #main .entry-content .wpcf7-form > div:nth-child(6) {
+  flex-direction: column;
+}
+#content .col-full #main .entry-content .wpcf7-form > div:nth-child(6) label span input {
+  width: 100%;
+  background-color: white;
+  border: var(--mainBlue) 2px solid;
+}
+#content .col-full #main .entry-content .wpcf7-form > div:nth-child(6) .wpcf7-captchac {
+  width: 15rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+#content .col-full #main .entry-content .wpcf7-form > div:nth-child(7) {
+  flex-direction: column;
+}
+#content .col-full #main .entry-content .wpcf7-form > div:nth-child(7) input {
+  width: 20rem;
+  height: 4rem;
+  margin-right: 0;
+  margin-left: auto;
+  background-color: var(--mainBlue);
+  color: white;
+}
+#content .col-full #main .entry-content .wpcf7-form > div:nth-child(7) input:hover {
+  background-color: var(--mainRed);
+}
+#content .col-full #main .entry-content .wpcf7-form > div:nth-child(7) input:active {
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+#content .col-full #main .entry-content .wpcf7-form .wpcf7-response-output {
+  border: none;
+  padding-left: 0;
+  color: var(--mainRed);
+}
+@media (max-width: 1110px) {
+  #content .col-full #main .entry-content .wpcf7-form > div {
+    width: 90vw;
+  }
+  #content .col-full #main .entry-content .wpcf7-form > div > div {
+    width: 44vw;
+  }
+  #content .col-full #main .entry-content .wpcf7-form > div:nth-child(4) label, #content .col-full #main .entry-content .wpcf7-form > div:nth-child(5) label, #content .col-full #main .entry-content .wpcf7-form > div:nth-child(6) label {
+    width: 90vw;
+  }
+}
+@media (max-width: 550px) {
+  #content .col-full #main .entry-content .wpcf7-form > div {
+    flex-direction: column;
+  }
+  #content .col-full #main .entry-content .wpcf7-form > div > div {
+    width: 90vw;
+  }
+  #content .col-full #main .entry-content .wpcf7-form > div:nth-child(7) {
+    flex-direction: column;
+  }
+  #content .col-full #main .entry-content .wpcf7-form > div:nth-child(7) input {
+    width: 90vw;
+  }
+}
+@media (max-width: 1110px) {
+  #content * {
+    max-width: 90vw;
+  }
+}/*# sourceMappingURL=content.css.map */
