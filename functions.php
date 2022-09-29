@@ -14,19 +14,25 @@ function register_assets(){
     
     wp_enqueue_style(
 		'header-css',
-		get_stylesheet_directory_uri().'/assets/css/header.css',
+		get_stylesheet_directory_uri().'/assets/css/childstorefront/header.css',
 		array(),
 		'1.0'
     );
 	wp_enqueue_style(
 		'main-css',
-		get_stylesheet_directory_uri().'/assets/css/main.css',
+		get_stylesheet_directory_uri().'/assets/css/childstorefront/main.css',
 		array(),
 		'1.0'
     );
 	wp_enqueue_style(
 		'footer-css',
-		get_stylesheet_directory_uri().'/assets/css/footer.css',
+		get_stylesheet_directory_uri().'/assets/css/childstorefront/footer.css',
+		array(),
+		'1.0'
+    );
+	wp_enqueue_style(
+		'content-homepage-css',
+		get_stylesheet_directory_uri().'/assets/css/childstorefront/content-homepage.css',
 		array(),
 		'1.0'
     );

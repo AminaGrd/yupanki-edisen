@@ -80,9 +80,11 @@ nav{
                     width: 12rem;
                 /* 	background-color: #F1FAFF; */
                     background-color: white;
+                    border-right: none;
                     li{
                         padding: 0.5rem 0 0.5rem 1rem;
                         text-transform: none;
+                        border-right: none;
                         a{
                             text-transform: none;
                             color: var(--mainRed);
@@ -209,6 +211,7 @@ nav{
             position : relative;
             .nav__logo{
                 width: 10rem;
+                margin-left: 2rem;
             }
             .menu-nav-container{
                 display: none;

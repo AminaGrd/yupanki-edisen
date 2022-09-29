@@ -54,7 +54,7 @@
 }
 #colophon .col-full .footer-infos-legals .site-footer-infos .footer-contact ul .list-type-place::before {
   content: "";
-  background-image: url(../images/childtheme/place-ico.svg);
+  background-image: url(../../images/childtheme/place-ico.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -114,4 +114,46 @@
 }
 #colophon .col-full .footer-infos-legals .site-footer-legals ul li a:hover {
   border-bottom: solid white 1px;
+}
+#colophon .col-full .storefront-handheld-footer-bar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#colophon .col-full .storefront-handheld-footer-bar ul .my-account a {
+  color: var(--mainRed);
+}
+#colophon .col-full .storefront-handheld-footer-bar ul .search {
+  display: none;
+}
+#colophon .col-full .storefront-handheld-footer-bar ul .cart a {
+  color: var(--mainBlue);
+}
+#colophon .col-full .storefront-handheld-footer-bar ul .cart span {
+  background-color: var(--mainRed);
+}
+@media (max-width: 767.5px) {
+  #colophon .col-full {
+    margin-bottom: 5rem;
+  }
+  #colophon .col-full .footer-infos-legals .site-footer-infos {
+    flex-direction: column;
+  }
+  #colophon .col-full .footer-infos-legals .site-footer-infos .footer-menu .menu-nav-container .menu li {
+    text-align: center;
+  }
+  #colophon .col-full .footer-infos-legals .site-footer-infos .footer-logo img {
+    width: 12rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+  #colophon .col-full .footer-infos-legals .site-footer-legals ul li {
+    list-style-type: none;
+  }
+  #colophon .col-full .footer-infos-legals .site-footer-legals ul li:first-child {
+    margin-right: 1rem;
+  }
+  #colophon .col-full .footer-infos-legals .site-footer-legals ul li:last-child {
+    margin-left: 1rem;
+  }
 }/*# sourceMappingURL=footer.css.map */

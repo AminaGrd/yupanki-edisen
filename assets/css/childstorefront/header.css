@@ -78,10 +78,12 @@
   width: 12rem;
   /* 	background-color: #F1FAFF; */
   background-color: white;
+  border-right: none;
 }
 #masthead nav .header-account-basket .header-account > ul .sub-menu li {
   padding: 0.5rem 0 0.5rem 1rem;
   text-transform: none;
+  border-right: none;
 }
 #masthead nav .header-account-basket .header-account > ul .sub-menu li a {
   text-transform: none;
@@ -167,6 +169,7 @@
   }
   #masthead nav .nav__logo {
     width: 10rem;
+    margin-left: 2rem;
   }
   #masthead nav .menu-nav-container {
     display: none;
