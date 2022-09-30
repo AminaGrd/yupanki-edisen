@@ -26,13 +26,13 @@
   color: var(--mainRed);
 }
 #content .col-full #main .woocommerce-tabs .tabs .description_tab.active a {
-  color: black;
+  color: var(--mainGrey);
 }
 #content .col-full #main .woocommerce-tabs .tabs .reviews_tab a {
   color: var(--mainRed);
 }
 #content .col-full #main .woocommerce-tabs .tabs .reviews_tab.active a {
-  color: black;
+  color: var(--mainGrey);
 }
 #content .col-full #main .woocommerce-tabs .woocommerce-Tabs-panel--reviews #reviews #comments .woocommerce-noreviews {
   background-color: var(--mainBlue);

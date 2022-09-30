@@ -1,0 +1,56 @@
+.entry-content{
+    .woocommerce-form-coupon-toggle{
+        .woocommerce-info{
+            background-color: var(--mainBlue);
+        }
+    }
+    .woocommerce-form-coupon{
+        input{
+            background-color: white;
+        }
+        .button{
+            background-color: var(--mainBlue);
+            color: white;
+            border-radius: 0;
+            &:hover{
+                background-color: var(--mainRed);
+            }
+            &:active{
+                box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+    .woocommerce-checkout{
+        input{
+            background-color: white;
+        }
+        textarea{
+            background-color: white;
+        }
+        #order_review{
+            #payment{
+                a{
+                    color: var(--mainRed);
+                }
+                .wc_payment_methods{
+                    .woocommerce-notice{
+                        background-color: var(--mainBlue);
+                    }
+                }
+                .place-order{
+                    .button{
+                        background-color: var(--mainBlue);
+                        color: white;
+                        border-radius: 0;
+                        &:hover{
+                            background-color: var(--mainRed);
+                        }
+                        &:active{
+                            box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

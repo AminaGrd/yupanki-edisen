@@ -39,8 +39,14 @@
                 font-weight: bold;
                 font-size: 2.2rem;
             }
+            h3{
+                text-align: left;
+                color: #2C2E35;
+                font-weight: bold;
+                font-size: 1.8rem;
+            }
             p{
-                color: black;
+                color: var(--mainGrey);
             }
             .btn-blue{
                 a{
@@ -113,7 +119,7 @@
                         top: 3px;
                     }
                     a{
-                        color: black;
+                        color: var(--mainGrey);
                         text-decoration: none;
                     }
                 }
@@ -134,7 +140,7 @@
                         top: 3px;
                     }
                     a{
-                        color: black;
+                        color: var(--mainGrey);
                         text-decoration: none;
                     }
                 }
@@ -144,7 +150,7 @@
             }
             .column__contact{
                 list-style-type: none;
-                color: black;
+                color: var(--mainGrey);
                 margin: 0;
                 font-size: 1.2rem;
                 .list-type-place{

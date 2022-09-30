@@ -40,8 +40,14 @@
   font-weight: bold;
   font-size: 2.2rem;
 }
+#content .col-full #main .entry-content h3 {
+  text-align: left;
+  color: #2C2E35;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
 #content .col-full #main .entry-content p {
-  color: black;
+  color: var(--mainGrey);
 }
 #content .col-full #main .entry-content .btn-blue a {
   width: 15rem;
@@ -107,7 +113,7 @@
   top: 3px;
 }
 #content .col-full #main .entry-content .contact__infos .list-type-phone a {
-  color: black;
+  color: var(--mainGrey);
   text-decoration: none;
 }
 #content .col-full #main .entry-content .contact__infos .list-type-mail {
@@ -128,7 +134,7 @@
   top: 3px;
 }
 #content .col-full #main .entry-content .contact__infos .list-type-mail a {
-  color: black;
+  color: var(--mainGrey);
   text-decoration: none;
 }
 #content .col-full #main .entry-content .margin-column {
@@ -136,7 +142,7 @@
 }
 #content .col-full #main .entry-content .column__contact {
   list-style-type: none;
-  color: black;
+  color: var(--mainGrey);
   margin: 0;
   font-size: 1.2rem;
 }

@@ -66,6 +66,9 @@
 							<li>
 								<a href="<?php bloginfo('wpurl'); ?>/mon-compte/edit-account/">Détails de mon compte</a>
 							</li>
+							<li>
+								<a href="<?php bloginfo('wpurl'); ?>/mon-compte/customer-logout/">Déconnexion</a>
+							</li>
 						</ul>
 					</ul>		
 				</div>

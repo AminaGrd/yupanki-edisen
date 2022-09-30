@@ -1,0 +1,40 @@
+.entry-content .woocommerce-form-coupon-toggle .woocommerce-info {
+  background-color: var(--mainBlue);
+}
+.entry-content .woocommerce-form-coupon input {
+  background-color: white;
+}
+.entry-content .woocommerce-form-coupon .button {
+  background-color: var(--mainBlue);
+  color: white;
+  border-radius: 0;
+}
+.entry-content .woocommerce-form-coupon .button:hover {
+  background-color: var(--mainRed);
+}
+.entry-content .woocommerce-form-coupon .button:active {
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.entry-content .woocommerce-checkout input {
+  background-color: white;
+}
+.entry-content .woocommerce-checkout textarea {
+  background-color: white;
+}
+.entry-content .woocommerce-checkout #order_review #payment a {
+  color: var(--mainRed);
+}
+.entry-content .woocommerce-checkout #order_review #payment .wc_payment_methods .woocommerce-notice {
+  background-color: var(--mainBlue);
+}
+.entry-content .woocommerce-checkout #order_review #payment .place-order .button {
+  background-color: var(--mainBlue);
+  color: white;
+  border-radius: 0;
+}
+.entry-content .woocommerce-checkout #order_review #payment .place-order .button:hover {
+  background-color: var(--mainRed);
+}
+.entry-content .woocommerce-checkout #order_review #payment .place-order .button:active {
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=validate-account.css.map */

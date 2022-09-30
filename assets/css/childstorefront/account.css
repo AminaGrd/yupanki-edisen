@@ -14,4 +14,40 @@
 }
 .entry-content #customer_login .woocommerce-form-login p a, .entry-content #customer_login .woocommerce-form-register p a {
   color: var(--mainRed);
+}
+.entry-content .woocommerce-MyAccount-navigation .woocommerce-MyAccount-navigation-link--downloads {
+  display: none;
+}
+.entry-content .woocommerce-MyAccount-navigation .woocommerce-MyAccount-navigation-link a {
+  color: var(--mainGrey);
+}
+.entry-content .woocommerce-MyAccount-navigation .woocommerce-MyAccount-navigation-link a:hover {
+  color: var(--mainBlue);
+}
+.entry-content .woocommerce-MyAccount-navigation .woocommerce-MyAccount-navigation-link.is-active a {
+  color: var(--mainBlue);
+  font-weight: bold;
+}
+.entry-content .woocommerce-MyAccount-content p a {
+  color: var(--mainRed);
+}
+.entry-content .woocommerce-MyAccount-content .woocommerce-message--info {
+  background-color: var(--mainBlue);
+}
+.entry-content .woocommerce-MyAccount-content .woocommerce-Addresses a {
+  color: var(--mainRed);
+}
+.entry-content .woocommerce-MyAccount-content .woocommerce-EditAccountForm input {
+  background-color: white;
+}
+.entry-content .woocommerce-MyAccount-content .woocommerce-EditAccountForm .button {
+  background-color: var(--mainBlue);
+  color: white;
+  border-radius: 0;
+}
+.entry-content .woocommerce-MyAccount-content .woocommerce-EditAccountForm .button:hover {
+  background-color: var(--mainRed);
+}
+.entry-content .woocommerce-MyAccount-content .woocommerce-EditAccountForm .button:active {
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
 }/*# sourceMappingURL=account.css.map */

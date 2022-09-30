@@ -272,7 +272,7 @@ nav{
                 >div{
                     height: 4px;
                     width: 35px;
-                    background-color: black;
+                    background-color: var(--mainGrey);
                     border-radius: 20px;
                 }
                 &.nav__burger--cross{

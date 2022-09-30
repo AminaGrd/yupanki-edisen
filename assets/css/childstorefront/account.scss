@@ -24,4 +24,54 @@
             }
         }
     }
+    .woocommerce-MyAccount-navigation{
+        .woocommerce-MyAccount-navigation-link--downloads{
+            display:none;
+        }
+        .woocommerce-MyAccount-navigation-link{
+            a{
+                color: var(--mainGrey);
+                &:hover{
+                    color: var(--mainBlue);
+                }
+            }
+            &.is-active{
+                a{
+                    color: var(--mainBlue);
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .woocommerce-MyAccount-content{
+        p{
+            a{
+            color: var(--mainRed);
+            }
+        }
+        .woocommerce-message--info{
+            background-color: var(--mainBlue);
+        }
+        .woocommerce-Addresses{
+            a{
+                color: var(--mainRed);
+            }
+        }
+        .woocommerce-EditAccountForm{
+            input{
+                background-color: white;;
+            }
+            .button{
+                background-color: var(--mainBlue);
+                color: white;
+                border-radius: 0;
+                &:hover{
+                    background-color: var(--mainRed);
+                }
+                &:active{
+                    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+    }
 }
