@@ -18,6 +18,7 @@
 #content{
 .col-full{
     padding: 0;
+    max-width: 70rem;
     #main{
         margin-bottom: 0;
         >.col-full{
@@ -68,6 +69,106 @@
                     }
                     &:active{
                         box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+                    }
+                }
+            }
+            .btn_yupanki{
+                a{
+                    background-image: url(../../images/childtheme/Yupanki-logo-sansbeaseline.svg);
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-color: white;
+                    width: 20rem;
+                    height: 7rem;
+                    color: transparent;
+                    &:hover{
+                        background-image: url(../../images/childtheme/Yupanki-logo-blanc.svg);
+                        // background-size: contain;
+                        // background-position: center;
+                        // background-repeat: no-repeat;
+                        background-color: var(--mainRed);
+                    }
+                }
+            }
+            .contact__infos{
+                list-style-type: none;
+                margin: 0;
+                font-size: 1.2rem;
+                margin-bottom: 5rem;
+                .list-type-phone{
+                    font-weight: bold;
+                    margin: 1rem 0;
+                    &::before{
+                        content: "";
+                        background-image: url(../../images/childtheme/tel-icone-red.svg);
+                        background-size: contain;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        width: 1.5rem;
+                        height: 1.5rem;
+                        display: inline-block;
+                        margin-right: 0.5rem;
+                        position: relative;
+                        top: 3px;
+                    }
+                    a{
+                        color: black;
+                        text-decoration: none;
+                    }
+                }
+                .list-type-mail{
+                    font-weight: bold;
+                    margin: 1rem 0;
+                    &::before{
+                        content: "";
+                        background-image: url(../../images/childtheme/mail-icone-red.svg);
+                        background-size: contain;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        width: 1.5rem;
+                        height: 1.5rem;
+                        display: inline-block;
+                        margin-right: 0.5rem;
+                        position: relative;
+                        top: 3px;
+                    }
+                    a{
+                        color: black;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .margin-column{
+                margin-bottom: 5rem;
+            }
+            .column__contact{
+                list-style-type: none;
+                color: black;
+                margin: 0;
+                font-size: 1.2rem;
+                .list-type-place{
+                    font-weight: bold;
+                    &::before{
+                        content: "";
+                        background-image: url(../../images/childtheme/place-ico-red.svg);
+                        background-size: contain;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        width: 1.5rem;
+                        height: 1.5rem;
+                        display: inline-block;
+                        margin-right: 0.5rem;
+                        position: relative;
+                        top: 3px;
+                    }
+                }
+                ul{
+                    font-weight:normal;
+                    margin-left: 2.1rem;
+                    list-style-type: none;
+                    li{
+                        font-size: 1rem;
                     }
                 }
             }

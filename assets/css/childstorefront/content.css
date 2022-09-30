@@ -16,6 +16,7 @@
 
 #content .col-full {
   padding: 0;
+  max-width: 70rem;
 }
 #content .col-full #main {
   margin-bottom: 0;
@@ -67,6 +68,101 @@
 }
 #content .col-full #main .entry-content .btn-red a:active {
   box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+#content .col-full #main .entry-content .btn_yupanki a {
+  background-image: url(../../images/childtheme/Yupanki-logo-sansbeaseline.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 20rem;
+  height: 7rem;
+  color: transparent;
+}
+#content .col-full #main .entry-content .btn_yupanki a:hover {
+  background-image: url(../../images/childtheme/Yupanki-logo-blanc.svg);
+  background-color: var(--mainRed);
+}
+#content .col-full #main .entry-content .contact__infos {
+  list-style-type: none;
+  margin: 0;
+  font-size: 1.2rem;
+  margin-bottom: 5rem;
+}
+#content .col-full #main .entry-content .contact__infos .list-type-phone {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+#content .col-full #main .entry-content .contact__infos .list-type-phone::before {
+  content: "";
+  background-image: url(../../images/childtheme/tel-icone-red.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+  position: relative;
+  top: 3px;
+}
+#content .col-full #main .entry-content .contact__infos .list-type-phone a {
+  color: black;
+  text-decoration: none;
+}
+#content .col-full #main .entry-content .contact__infos .list-type-mail {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+#content .col-full #main .entry-content .contact__infos .list-type-mail::before {
+  content: "";
+  background-image: url(../../images/childtheme/mail-icone-red.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+  position: relative;
+  top: 3px;
+}
+#content .col-full #main .entry-content .contact__infos .list-type-mail a {
+  color: black;
+  text-decoration: none;
+}
+#content .col-full #main .entry-content .margin-column {
+  margin-bottom: 5rem;
+}
+#content .col-full #main .entry-content .column__contact {
+  list-style-type: none;
+  color: black;
+  margin: 0;
+  font-size: 1.2rem;
+}
+#content .col-full #main .entry-content .column__contact .list-type-place {
+  font-weight: bold;
+}
+#content .col-full #main .entry-content .column__contact .list-type-place::before {
+  content: "";
+  background-image: url(../../images/childtheme/place-ico-red.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+  position: relative;
+  top: 3px;
+}
+#content .col-full #main .entry-content .column__contact ul {
+  font-weight: normal;
+  margin-left: 2.1rem;
+  list-style-type: none;
+}
+#content .col-full #main .entry-content .column__contact ul li {
+  font-size: 1rem;
 }
 #content .col-full #main .entry-content .wpcf7-form {
   width: 100%;
