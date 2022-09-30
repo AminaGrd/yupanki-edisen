@@ -84,13 +84,13 @@ nav{
         display: flex;
         flex-direction: row;
         align-items: center;
-        // margin-right: 5vw;
+        margin-right: 16px;
         .header-account{
             >ul{
                 position: relative;
                 margin :0;
                 list-style-type: none;
-                margin-right: 1.5rem;
+                margin-right: 0.8rem;
                 padding: 2rem 0;
                 li{
                     border-right: solid var(--mainRed) 2px;
@@ -137,7 +137,7 @@ nav{
         }
         .header-price{
             .site-header-cart{
-                width: 14.5rem;
+                width: 13.9rem;
                 .header-cart__price{
                     .cart-contents::after{
                         float: none;
@@ -152,6 +152,7 @@ nav{
                             >ul{
                                 background-color: white;
                                 >li{
+                                    padding: 0.5rem;
                                     a{
                                         color: var(--mainBlue);
                                     }
@@ -160,6 +161,7 @@ nav{
                             >p{
                                 background-color: white;
                                 &.woocommerce-mini-cart__buttons{
+                                    padding: 0.5rem;
                                     .button{
                                         &:first-child{
                                             background-color: var(--mainRedLight);

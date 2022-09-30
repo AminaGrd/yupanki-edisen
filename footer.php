@@ -40,7 +40,7 @@
 								</ul>
 							</li>
 							<li class="contact-row">
-								<img onclick="location.href='tel:0380423951'" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/tel-icone.svg" alt="icone du site">
+								<img onclick="location.href='tel:0380423951'" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/tel-icone.svg" alt="icone téléphone">
 								<a href="tel:0380423951">03 80 42 39 51</a>
 							</li>
 							<li class="contact-row">
@@ -57,7 +57,7 @@
 						</li>
 						<span></span>
 						<li>
-							<a href="https://www.yupanki.fr/">Site réalisé par Yupanki</a>
+							<a href="https://www.yupanki.fr/" target="_blank">Site réalisé par Yupanki</a>
 						</li>
 					</ul>
 				</div>
