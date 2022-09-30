@@ -97,6 +97,17 @@
                     }
                 }
             }
+            .button{
+                background-color: var(--mainBlue);
+                color: white;
+                border-radius: 0;
+                &:hover{
+                    background-color: var(--mainRed);
+                }
+                &:active{
+                    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+                }
+            }
             .contact__infos{
                 list-style-type: none;
                 margin: 0;

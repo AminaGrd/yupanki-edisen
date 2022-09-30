@@ -24,15 +24,15 @@
 #content .col-full #main .products .product h2:hover {
   color: var(--mainRed);
 }
-#content .col-full #main .products .product .button {
+#content .col-full #main .products .product .button, #content .col-full #main .products .product .added_to_cart {
   margin-bottom: 0;
   width: 100%;
   background-color: var(--mainBlue);
   color: white;
 }
-#content .col-full #main .products .product .button:hover {
+#content .col-full #main .products .product .button:hover, #content .col-full #main .products .product .added_to_cart:hover {
   background-color: var(--mainRed);
 }
-#content .col-full #main .products .product .button:active {
+#content .col-full #main .products .product .button:active, #content .col-full #main .products .product .added_to_cart:active {
   box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
 }/*# sourceMappingURL=shop.css.map */

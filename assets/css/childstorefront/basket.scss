@@ -1,4 +1,21 @@
 .entry-content{
+    p.cart-empty{
+        background-color: var(--mainBlue);
+        color: white !important;
+    }
+    .return-to-shop{
+        // .button{
+        //     background-color: var(--mainBlue);
+        //     color: white;
+        //     border-radius: 0;
+        //     &:hover{
+        //         background-color: var(--mainRed);
+        //     }
+        //     &:active{
+        //         box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+        //     }
+        // }
+    }
     .woocommerce-cart-form{
         .shop_table{
             tbody{
@@ -10,17 +27,17 @@
                     }
                 }
                 tr{
-                    .button{
-                        background-color: var(--mainBlue);
-                        color: white;
-                        border-radius: 0;
-                        &:hover{
-                            background-color: var(--mainRed);
-                        }
-                        &:active{
-                            box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
-                        }
-                    }
+                    // .button{
+                    //     background-color: var(--mainBlue);
+                    //     color: white;
+                    //     border-radius: 0;
+                    //     &:hover{
+                    //         background-color: var(--mainRed);
+                    //     }
+                    //     &:active{
+                    //         box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+                    //     }
+                    // }
                     #coupon_code{
                         background-color: white;
                     }
@@ -32,8 +49,13 @@
         .cart_totals{
             .shop_table{
                 .woocommerce-shipping-totals{
-                    a{
-                        color: var(--mainRed);
+                    .woocommerce-shipping-calculator{
+                        a{
+                            color: var(--mainRed);
+                        }
+                        input{
+                            background-color: white;
+                        }
                     }
                 }
             }

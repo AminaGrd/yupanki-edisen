@@ -89,6 +89,17 @@
   background-image: url(../../images/childtheme/Yupanki-logo-blanc.svg);
   background-color: var(--mainRed);
 }
+#content .col-full #main .entry-content .button {
+  background-color: var(--mainBlue);
+  color: white;
+  border-radius: 0;
+}
+#content .col-full #main .entry-content .button:hover {
+  background-color: var(--mainRed);
+}
+#content .col-full #main .entry-content .button:active {
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
 #content .col-full #main .entry-content .contact__infos {
   list-style-type: none;
   margin: 0;

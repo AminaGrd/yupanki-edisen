@@ -36,8 +36,12 @@
 }
 #content .col-full #main .woocommerce-tabs .woocommerce-Tabs-panel--reviews #reviews #comments .woocommerce-noreviews {
   background-color: var(--mainBlue);
+  color: white;
 }
-#content .col-full #main .woocommerce-tabs .woocommerce-Tabs-panel--reviews #reviews #review_form_wrapper #respond #commentform .comment-form-comment textarea {
+#content .col-full #main .woocommerce-tabs .woocommerce-Tabs-panel--reviews #reviews #review_form_wrapper #respond #commentform textarea {
+  background-color: white;
+}
+#content .col-full #main .woocommerce-tabs .woocommerce-Tabs-panel--reviews #reviews #review_form_wrapper #respond #commentform input {
   background-color: white;
 }
 #content .col-full #main .woocommerce-tabs .woocommerce-Tabs-panel--reviews #reviews #review_form_wrapper #respond #commentform .form-submit input {

@@ -5,19 +5,6 @@
                 input{
                     background-color: white;
                 }
-                &.form-row{
-                    .button{
-                        background-color: var(--mainBlue);
-                        color: white;
-                        border-radius: 0;
-                        &:hover{
-                            background-color: var(--mainRed);
-                        }
-                        &:active{
-                            box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
-                        }
-                    }
-                }
                 a{
                     color: var(--mainRed);
                 }
@@ -51,6 +38,21 @@
         }
         .woocommerce-message--info{
             background-color: var(--mainBlue);
+            .button{
+                &:hover{
+                    background-color: transparent !important;
+                }
+            }
+        }
+        .woocommerce-MyAccount-orders{
+            a{
+                color: var(--mainRed);
+            }
+        }
+        .woocommerce-order-details{
+            a{
+                color: var(--mainRed);
+            }
         }
         .woocommerce-Addresses{
             a{
@@ -60,17 +62,6 @@
         .woocommerce-EditAccountForm{
             input{
                 background-color: white;;
-            }
-            .button{
-                background-color: var(--mainBlue);
-                color: white;
-                border-radius: 0;
-                &:hover{
-                    background-color: var(--mainRed);
-                }
-                &:active{
-                    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
-                }
             }
         }
     }

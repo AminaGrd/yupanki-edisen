@@ -64,16 +64,18 @@
                     #comments{
                         .woocommerce-noreviews{
                             background-color: var(--mainBlue);
+                            color: white;
                         }
                     }
                     #review_form_wrapper{
                         #respond{
                             #commentform{
-                                .comment-form-comment{
-                                    textarea{
-                                        background-color: white;
-                                        // width: 95%;
-                                    }
+                                textarea{
+                                    background-color: white;
+                                    // width: 95%;
+                                }
+                                input{
+                                    background-color: white;
                                 }
                                 .form-submit{
                                     input{

@@ -8,17 +8,6 @@
         input{
             background-color: white;
         }
-        .button{
-            background-color: var(--mainBlue);
-            color: white;
-            border-radius: 0;
-            &:hover{
-                background-color: var(--mainRed);
-            }
-            &:active{
-                box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
-            }
-        }
     }
     .woocommerce-checkout{
         input{
@@ -37,19 +26,14 @@
                         background-color: var(--mainBlue);
                     }
                 }
-                .place-order{
-                    .button{
-                        background-color: var(--mainBlue);
-                        color: white;
-                        border-radius: 0;
-                        &:hover{
-                            background-color: var(--mainRed);
-                        }
-                        &:active{
-                            box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
-                        }
-                    }
-                }
+            }
+        }
+    }
+    // COMMANDE RECUE
+    .woocommerce-order{
+        .woocommerce-order-details{
+            a{
+                color: var(--mainRed);
             }
         }
     }

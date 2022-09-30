@@ -1,17 +1,6 @@
 .entry-content #customer_login .woocommerce-form-login p input, .entry-content #customer_login .woocommerce-form-register p input {
   background-color: white;
 }
-.entry-content #customer_login .woocommerce-form-login p.form-row .button, .entry-content #customer_login .woocommerce-form-register p.form-row .button {
-  background-color: var(--mainBlue);
-  color: white;
-  border-radius: 0;
-}
-.entry-content #customer_login .woocommerce-form-login p.form-row .button:hover, .entry-content #customer_login .woocommerce-form-register p.form-row .button:hover {
-  background-color: var(--mainRed);
-}
-.entry-content #customer_login .woocommerce-form-login p.form-row .button:active, .entry-content #customer_login .woocommerce-form-register p.form-row .button:active {
-  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
-}
 .entry-content #customer_login .woocommerce-form-login p a, .entry-content #customer_login .woocommerce-form-register p a {
   color: var(--mainRed);
 }
@@ -34,20 +23,18 @@
 .entry-content .woocommerce-MyAccount-content .woocommerce-message--info {
   background-color: var(--mainBlue);
 }
+.entry-content .woocommerce-MyAccount-content .woocommerce-message--info .button:hover {
+  background-color: transparent !important;
+}
+.entry-content .woocommerce-MyAccount-content .woocommerce-MyAccount-orders a {
+  color: var(--mainRed);
+}
+.entry-content .woocommerce-MyAccount-content .woocommerce-order-details a {
+  color: var(--mainRed);
+}
 .entry-content .woocommerce-MyAccount-content .woocommerce-Addresses a {
   color: var(--mainRed);
 }
 .entry-content .woocommerce-MyAccount-content .woocommerce-EditAccountForm input {
   background-color: white;
-}
-.entry-content .woocommerce-MyAccount-content .woocommerce-EditAccountForm .button {
-  background-color: var(--mainBlue);
-  color: white;
-  border-radius: 0;
-}
-.entry-content .woocommerce-MyAccount-content .woocommerce-EditAccountForm .button:hover {
-  background-color: var(--mainRed);
-}
-.entry-content .woocommerce-MyAccount-content .woocommerce-EditAccountForm .button:active {
-  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
 }/*# sourceMappingURL=account.css.map */

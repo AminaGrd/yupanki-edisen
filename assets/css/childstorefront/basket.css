@@ -1,22 +1,18 @@
+.entry-content p.cart-empty {
+  background-color: var(--mainBlue);
+  color: white !important;
+}
 .entry-content .woocommerce-cart-form .shop_table tbody .woocommerce-cart-form__cart-item .product-name a {
   color: var(--mainRed);
-}
-.entry-content .woocommerce-cart-form .shop_table tbody tr .button {
-  background-color: var(--mainBlue);
-  color: white;
-  border-radius: 0;
-}
-.entry-content .woocommerce-cart-form .shop_table tbody tr .button:hover {
-  background-color: var(--mainRed);
-}
-.entry-content .woocommerce-cart-form .shop_table tbody tr .button:active {
-  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 .entry-content .woocommerce-cart-form .shop_table tbody tr #coupon_code {
   background-color: white;
 }
-.entry-content .cart-collaterals .cart_totals .shop_table .woocommerce-shipping-totals a {
+.entry-content .cart-collaterals .cart_totals .shop_table .woocommerce-shipping-totals .woocommerce-shipping-calculator a {
   color: var(--mainRed);
+}
+.entry-content .cart-collaterals .cart_totals .shop_table .woocommerce-shipping-totals .woocommerce-shipping-calculator input {
+  background-color: white;
 }
 .entry-content .cart-collaterals .cart_totals .wc-proceed-to-checkout a {
   background-color: var(--mainBlue);
