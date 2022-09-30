@@ -43,6 +43,18 @@
                 }
             }
         }
+        @media (max-width: 767.5px){
+            .products{
+                width: 20rem;
+                margin-right: auto;
+                margin-left: auto;
+            }
+        }
+        @media (max-width: 350px){
+            .products{
+                width: 90vw;
+            }
+        }
     }
 }
 }
