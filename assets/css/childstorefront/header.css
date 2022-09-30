@@ -16,9 +16,42 @@
   padding-top: 0;
 }
 #masthead nav .nav__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#masthead nav .nav__logo img {
   cursor: pointer;
   width: 10rem;
-  margin-left: 9vw;
+  margin-left: 2.5vw;
+}
+#masthead nav .nav__logo span {
+  width: 2px;
+  height: 4rem;
+  background-color: var(--mainBlue);
+  margin-right: 0.6rem;
+  margin-left: 0.6rem;
+}
+#masthead nav .nav__logo ul {
+  margin: 0;
+  list-style-type: none;
+}
+#masthead nav .nav__logo ul li {
+  font-weight: bold;
+  color: var(--mainRed);
+}
+#masthead nav .nav__logo ul li::before {
+  content: "";
+  background-image: url(../../images/childtheme/place-ico-red.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+  position: relative;
+  top: 3px;
 }
 #masthead nav .menu-nav-container #menu-nav {
   display: flex;
@@ -48,7 +81,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 5vw;
 }
 #masthead nav .header-account-basket .header-account > ul {
   position: relative;
@@ -97,7 +129,7 @@
   display: block;
 }
 #masthead nav .header-account-basket .header-price .site-header-cart {
-  width: 16rem;
+  width: 14.5rem;
 }
 #masthead nav .header-account-basket .header-price .site-header-cart .header-cart__price .cart-contents::after {
   float: none;
@@ -137,12 +169,20 @@
   margin-right: 5vw;
 }
 @media (max-width: 1110px) {
-  #masthead nav .nav__logo {
-    width: 8rem;
-    margin-left: 5rem;
+  #masthead nav .nav__logo img {
+    margin-left: 2rem;
+  }
+  #masthead nav .nav__logo span {
+    display: none;
+  }
+  #masthead nav .nav__logo ul {
+    display: none;
   }
   #masthead nav .menu-nav-container #menu-nav li a {
     font-size: 0.9rem;
+  }
+  #masthead nav .header-account-basket {
+    margin-right: 2rem;
   }
   #masthead nav .header-account-basket .header-account > ul {
     margin: 0;
@@ -166,10 +206,6 @@
 @media (max-width: 767.5px) {
   #masthead nav {
     position: relative;
-  }
-  #masthead nav .nav__logo {
-    width: 10rem;
-    margin-left: 2rem;
   }
   #masthead nav .menu-nav-container {
     display: none;

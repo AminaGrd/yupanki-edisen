@@ -48,6 +48,11 @@
 		<nav>
 			<div class="nav__logo">
         		<img onclick="location.href='<?php bloginfo('wpurl'); ?>';" src="<?php bloginfo('wpurl'); ?>/wp-content/uploads/2022/09/logo-edisen_couleur.jpg" alt="icone du site">
+				<span></span>
+				<ul>
+					<li>Dijon (21)</li>
+					<li>Bourg-en-Bresse (01)</li>
+				</ul>
     		</div>
 			<?php wp_nav_menu(array('theme_location' => 'nav')); ?>
 			<div class="header-account-basket">

@@ -15,9 +15,42 @@ nav{
 	height: 5.5rem;
 	padding-top: 0;
     .nav__logo{
-        cursor: pointer;
-        width: 10rem;
-        margin-left: 9vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        img{
+            cursor: pointer;
+            width: 10rem;
+            margin-left: 2.5vw;
+        }
+        span{
+            width: 2px;
+            height: 4rem;
+            background-color: var(--mainBlue);
+            margin-right: 0.6rem;
+            margin-left: 0.6rem;
+        }
+        ul{
+            margin: 0;
+            list-style-type: none;
+            li{
+                font-weight: bold;
+                color: var(--mainRed);
+                &::before{
+                    content: "";
+                    background-image: url(../../images/childtheme/place-ico-red.svg);
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    width: 1rem;
+                    height: 1rem;
+                    display: inline-block;
+                    margin-right: 0.5rem;
+                    position: relative;
+                    top: 3px;
+                }
+            }
+        }
     }
     .menu-nav-container{
         #menu-nav{
@@ -51,7 +84,7 @@ nav{
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-right: 5vw;
+        // margin-right: 5vw;
         .header-account{
             >ul{
                 position: relative;
@@ -104,7 +137,7 @@ nav{
         }
         .header-price{
             .site-header-cart{
-                width: 16rem;
+                width: 14.5rem;
                 .header-cart__price{
                     .cart-contents::after{
                         float: none;
@@ -161,8 +194,15 @@ nav{
 
     @media (max-width: 1110px) {
         .nav__logo{
-        width: 8rem;
-        margin-left: 5rem;
+            img{
+                margin-left: 2rem;
+            }
+            span{
+                display: none;
+            }
+            ul{
+                display: none;
+            }
         }
         .menu-nav-container{
             #menu-nav{
@@ -174,6 +214,7 @@ nav{
             }
         }
         .header-account-basket{
+            margin-right: 2rem;
             .header-account{
                 >ul{
                     margin:0;
@@ -209,10 +250,6 @@ nav{
     @media (max-width: 767.5px){
         nav{
             position : relative;
-            .nav__logo{
-                width: 10rem;
-                margin-left: 2rem;
-            }
             .menu-nav-container{
                 display: none;
                 position: absolute;
