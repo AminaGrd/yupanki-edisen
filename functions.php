@@ -54,6 +54,18 @@ function register_assets(){
 		array(),
 		'1.0'
     );
+	wp_enqueue_style(
+		'basket-css',
+		get_stylesheet_directory_uri().'/assets/css/childstorefront/basket.css',
+		array(),
+		'1.0'
+    );
+	wp_enqueue_style(
+		'account-css',
+		get_stylesheet_directory_uri().'/assets/css/childstorefront/account.css',
+		array(),
+		'1.0'
+    );
 	// wp_enqueue_script(
 	// 	'header-js',
 	// 	get_stylesheet_directory_uri().'/assets/js/header.js',

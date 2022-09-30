@@ -1,0 +1,55 @@
+.entry-content{
+    .woocommerce-cart-form{
+        .shop_table{
+            tbody{
+                .woocommerce-cart-form__cart-item{
+                    .product-name{
+                        a{
+                            color: var(--mainRed);
+                        }
+                    }
+                }
+                tr{
+                    .button{
+                        background-color: var(--mainBlue);
+                        color: white;
+                        border-radius: 0;
+                        &:hover{
+                            background-color: var(--mainRed);
+                        }
+                        &:active{
+                            box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+                        }
+                    }
+                    #coupon_code{
+                        background-color: white;
+                    }
+                }
+            }
+        }
+    }
+    .cart-collaterals{
+        .cart_totals{
+            .shop_table{
+                .woocommerce-shipping-totals{
+                    a{
+                        color: var(--mainRed);
+                    }
+                }
+            }
+            .wc-proceed-to-checkout{
+                a{
+                    background-color: var(--mainBlue);
+                    color: white;
+                    border-radius: 0;
+                    &:hover{
+                        background-color: var(--mainRed);
+                    }
+                    &:active{
+                        box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+                    }
+                }
+            }
+        }
+    }
+}

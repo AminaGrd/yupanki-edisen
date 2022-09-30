@@ -1,0 +1,27 @@
+.entry-content{
+    #customer_login{
+        .woocommerce-form-login, .woocommerce-form-register{
+            p{
+                input{
+                    background-color: white;
+                }
+                &.form-row{
+                    .button{
+                        background-color: var(--mainBlue);
+                        color: white;
+                        border-radius: 0;
+                        &:hover{
+                            background-color: var(--mainRed);
+                        }
+                        &:active{
+                            box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+                        }
+                    }
+                }
+                a{
+                    color: var(--mainRed);
+                }
+            }
+        }
+    }
+}
