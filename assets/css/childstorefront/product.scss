@@ -4,6 +4,9 @@
         .product{
             .summary{
                 .cart{
+                    input{
+                        background-color: white;
+                    }
                     button{
                         background-color: var(--mainBlue);
                         color: white;
@@ -70,9 +73,13 @@
                     #review_form_wrapper{
                         #respond{
                             #commentform{
+                                .comment-form-rating{
+                                    p.stars.selected a.active:before, p.stars:hover a:before, p.stars.selected a:not(.active):before, p.stars.selected a.active:before {
+                                        color: #FFD700;
+                                    }
+                                }
                                 textarea{
                                     background-color: white;
-                                    // width: 95%;
                                 }
                                 input{
                                     background-color: white;
