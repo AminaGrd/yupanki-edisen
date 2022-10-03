@@ -96,7 +96,6 @@
   padding: 2rem 0;
 }
 #masthead nav .header-account-basket .header-account > ul li a {
-  border-right: solid var(--mainRed) 2px;
   padding: 0.1rem 1rem 0.1rem 0;
   color: var(--mainBlue);
   text-transform: uppercase;

@@ -204,24 +204,26 @@
                     }
                     >div{
                         width: 33rem;
-                        label{
-                            span{
-                                input{
-                                    width: 100%;
-                                    background-color: white;
-                                    border: var(--mainBlue) 2px solid;
-                                }
+                        span{
+                            input{
+                                width: 100%;
+                                background-color: white;
+                                border: var(--mainBlue) 2px solid;
                             }
+                        }
+                        label{
+                            display: none
                         }
                     }
                     &:nth-child(4), &:nth-child(5), &:nth-child(6){
                         margin-bottom: 1.5rem;
                         label{
                             width: 70rem;
-                            textarea{
-                                background-color: white;
-                                border: var(--mainBlue) 2px solid;
-                            }
+                        }
+                        textarea{
+                            width: 70rem;
+                            background-color: white;
+                            border: var(--mainBlue) 2px solid;
                         }
                     }
                     &:nth-child(5){
@@ -299,6 +301,9 @@
                         }
                         &:nth-child(4), &:nth-child(5), &:nth-child(6){
                             label{
+                                width: 90vw;
+                            }
+                            textarea{
                                 width: 90vw;
                             }
                         } 
