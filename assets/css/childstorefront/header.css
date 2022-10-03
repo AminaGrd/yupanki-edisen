@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: space-between;
   margin: auto;
-  width: 100vw;
+  width: 95vw;
   height: 5.5rem;
   padding-top: 0;
 }
@@ -23,18 +23,18 @@
 #masthead nav .nav__logo img {
   cursor: pointer;
   width: 10rem;
-  margin-left: 2.5vw;
 }
 #masthead nav .nav__logo span {
   width: 2px;
   height: 4rem;
   background-color: var(--mainBlue);
-  margin-right: 0.6rem;
-  margin-left: 0.6rem;
+  margin-right: 0.5rem;
+  margin-left: 0.8rem;
 }
 #masthead nav .nav__logo ul {
   margin: 0;
   list-style-type: none;
+  font-size: 0.8rem;
 }
 #masthead nav .nav__logo ul li {
   font-weight: bold;
@@ -53,13 +53,19 @@
   position: relative;
   top: 3px;
 }
+#masthead nav .nav__logo ul li:last-child {
+  margin-top: 0.5rem;
+}
 #masthead nav .menu-nav-container #menu-nav {
   display: flex;
   margin: 0;
 }
-#masthead nav .menu-nav-container #menu-nav > li {
-  padding: 0 0.8rem;
+#masthead nav .menu-nav-container #menu-nav > li > a {
+  padding: 0.1rem 1rem;
   border-right: solid var(--mainRed) 2px;
+}
+#masthead nav .menu-nav-container #menu-nav > li:nth-last-child(2) a {
+  border-right: none;
 }
 #masthead nav .menu-nav-container #menu-nav li {
   list-style-type: none;
@@ -81,20 +87,17 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 16px;
 }
 #masthead nav .header-account-basket .header-account > ul {
   position: relative;
   margin: 0;
   list-style-type: none;
-  margin-right: 0.8rem;
+  margin-right: 1rem;
   padding: 2rem 0;
 }
-#masthead nav .header-account-basket .header-account > ul li {
-  border-right: solid var(--mainRed) 2px;
-  padding-right: 1rem;
-}
 #masthead nav .header-account-basket .header-account > ul li a {
+  border-right: solid var(--mainRed) 2px;
+  padding: 0.1rem 1rem 0.1rem 0;
   color: var(--mainBlue);
   text-transform: uppercase;
 }
@@ -130,15 +133,22 @@
   display: block;
 }
 #masthead nav .header-account-basket .header-price .site-header-cart {
-  width: 13.9rem;
+  width: 9rem;
 }
 #masthead nav .header-account-basket .header-price .site-header-cart .header-cart__price .cart-contents::after {
   float: none;
-  padding-left: 3rem;
+  padding-left: 1rem;
   color: var(--mainRed);
 }
 #masthead nav .header-account-basket .header-price .site-header-cart li .widget_shopping_cart {
+  background-color: transparent;
+}
+#masthead nav .header-account-basket .header-price .site-header-cart li .widget_shopping_cart .widget_shopping_cart_content {
+  position: relative;
+  left: -9rem;
   background-color: white;
+  width: 20rem;
+  padding: 0.5rem;
 }
 #masthead nav .header-account-basket .header-price .site-header-cart li .widget_shopping_cart .widget_shopping_cart_content > ul {
   background-color: white;
@@ -175,9 +185,13 @@
   display: none;
   margin-right: 5vw;
 }
-@media (max-width: 1110px) {
+@media (max-width: 1150px) {
+  #masthead nav {
+    width: 100vw;
+  }
   #masthead nav .nav__logo img {
     margin-left: 2rem;
+    width: 9rem;
   }
   #masthead nav .nav__logo span {
     display: none;
@@ -198,16 +212,18 @@
     font-size: 0.9rem;
   }
   #masthead nav .header-account-basket .header-price .site-header-cart {
-    width: 4rem;
+    width: 2rem;
+    text-align: center;
   }
   #masthead nav .header-account-basket .header-price .site-header-cart li:last-child {
     display: none;
   }
-  #masthead nav .header-account-basket .header-price .site-header-cart li .cart-contents::after {
-    padding-left: 1.5rem;
-  }
   #masthead nav .header-account-basket .header-price .site-header-cart li .cart-contents span {
     display: none;
+  }
+  #masthead nav .header-account-basket .header-price .site-header-cart .header-cart__price {
+    width: 0px;
+    margin: 0;
   }
 }
 @media (max-width: 767.5px) {
@@ -242,14 +258,18 @@
   }
   #masthead nav .menu-nav-container #menu-nav {
     flex-direction: column;
+    align-items: center;
     background-color: rgb(255, 255, 255);
   }
   #masthead nav .menu-nav-container #menu-nav > li {
-    width: 100%;
-    text-align: left;
-    padding: 1rem 0 1rem 2rem;
+    padding: 0.2rem 0;
     border-bottom: 0.5px solid var(--mainRed);
+    width: 100%;
+  }
+  #masthead nav .menu-nav-container #menu-nav > li > a {
     border-right: none;
+    padding: 1rem 0 1rem 2rem;
+    display: block;
   }
   #masthead nav .menu-nav-container #menu-nav li:last-child {
     display: block;

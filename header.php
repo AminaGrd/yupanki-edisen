@@ -58,6 +58,8 @@
 			<div class="header-account-basket">
 				<div class="header-account">
 					<ul>
+					<?php
+						if ( is_user_logged_in() ) { ?>
 						<li>
 							<a href="<?php bloginfo('wpurl'); ?>/mon-compte/">Mon compte</a>
 						</li>
@@ -75,6 +77,11 @@
 								<a href="<?php bloginfo('wpurl'); ?>/mon-compte/customer-logout/">Déconnexion</a>
 							</li>
 						</ul>
+					<?php } else {?>
+						<li>
+						<a href="<?php bloginfo('wpurl'); ?>/mon-compte/">Se connecter</a>
+						</li>
+					<?php } ?>
 					</ul>		
 				</div>
 				<div class="header-price">

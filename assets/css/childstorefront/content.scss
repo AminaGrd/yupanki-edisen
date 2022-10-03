@@ -16,8 +16,8 @@
     }
 }
 .col-full{
-    padding: 0;
-    max-width: 70rem;
+    padding: 0 !important;
+    max-width: 70rem !important;
     #main{
         margin-bottom: 0;
         >.col-full{

@@ -15,8 +15,8 @@
 }
 
 .col-full {
-  padding: 0;
-  max-width: 70rem;
+  padding: 0 !important;
+  max-width: 70rem !important;
 }
 .col-full #main {
   margin-bottom: 0;
