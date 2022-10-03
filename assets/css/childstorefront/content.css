@@ -14,68 +14,68 @@
   text-decoration: underline;
 }
 
-#content .col-full {
+.col-full {
   padding: 0;
   max-width: 70rem;
 }
-#content .col-full #main {
+.col-full #main {
   margin-bottom: 0;
 }
-#content .col-full #main > .col-full {
+.col-full #main > .col-full {
   margin: 0;
 }
-#content .col-full #main h1 {
+.col-full #main h1 {
   color: var(--mainRed);
   font-weight: bold;
   text-align: left;
   text-transform: uppercase;
 }
-#content .col-full #main .entry-content {
+.col-full #main .entry-content {
   width: 100vw;
   text-align: left;
   max-width: 70rem;
 }
-#content .col-full #main .entry-content h2 {
+.col-full #main .entry-content h2 {
   color: var(--mainBlue);
   font-weight: bold;
   font-size: 2.2rem;
 }
-#content .col-full #main .entry-content h3 {
+.col-full #main .entry-content h3 {
   text-align: left;
   color: #2C2E35;
   font-weight: bold;
   font-size: 1.8rem;
 }
-#content .col-full #main .entry-content p {
+.col-full #main .entry-content p {
   color: var(--mainGrey);
 }
-#content .col-full #main .entry-content .btn-blue a {
+.col-full #main .entry-content .btn-blue a {
   width: 15rem;
   height: 4rem;
   background-color: var(--mainBlue);
   color: white;
   border-radius: 0;
 }
-#content .col-full #main .entry-content .btn-blue a:hover {
+.col-full #main .entry-content .btn-blue a:hover {
   background-color: var(--mainRed);
 }
-#content .col-full #main .entry-content .btn-blue a:active {
+.col-full #main .entry-content .btn-blue a:active {
   box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
-#content .col-full #main .entry-content .btn-red a {
+.col-full #main .entry-content .btn-red a {
   width: 15rem;
   height: 4rem;
   background-color: var(--mainRed);
   color: white;
   border-radius: 0;
 }
-#content .col-full #main .entry-content .btn-red a:hover {
+.col-full #main .entry-content .btn-red a:hover {
   background-color: var(--mainBlue);
 }
-#content .col-full #main .entry-content .btn-red a:active {
+.col-full #main .entry-content .btn-red a:active {
   box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
-#content .col-full #main .entry-content .btn_yupanki a {
+.col-full #main .entry-content .btn_yupanki a {
   background-image: url(../../images/childtheme/Yupanki-logo-sansbeaseline.svg);
   background-size: contain;
   background-position: center;
@@ -85,32 +85,32 @@
   height: 7rem;
   color: transparent;
 }
-#content .col-full #main .entry-content .btn_yupanki a:hover {
+.col-full #main .entry-content .btn_yupanki a:hover {
   background-image: url(../../images/childtheme/Yupanki-logo-blanc.svg);
   background-color: var(--mainRed);
 }
-#content .col-full #main .entry-content .button {
+.col-full #main .entry-content .button {
   background-color: var(--mainBlue);
   color: white;
   border-radius: 0;
 }
-#content .col-full #main .entry-content .button:hover {
+.col-full #main .entry-content .button:hover {
   background-color: var(--mainRed);
 }
-#content .col-full #main .entry-content .button:active {
+.col-full #main .entry-content .button:active {
   box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
-#content .col-full #main .entry-content .contact__infos {
+.col-full #main .entry-content .contact__infos {
   list-style-type: none;
   margin: 0;
   font-size: 1.2rem;
   margin-bottom: 5rem;
 }
-#content .col-full #main .entry-content .contact__infos .list-type-phone {
+.col-full #main .entry-content .contact__infos .list-type-phone {
   font-weight: bold;
   margin: 1rem 0;
 }
-#content .col-full #main .entry-content .contact__infos .list-type-phone::before {
+.col-full #main .entry-content .contact__infos .list-type-phone::before {
   content: "";
   background-image: url(../../images/childtheme/tel-icone-red.svg);
   background-size: contain;
@@ -123,15 +123,15 @@
   position: relative;
   top: 3px;
 }
-#content .col-full #main .entry-content .contact__infos .list-type-phone a {
+.col-full #main .entry-content .contact__infos .list-type-phone a {
   color: var(--mainGrey);
   text-decoration: none;
 }
-#content .col-full #main .entry-content .contact__infos .list-type-mail {
+.col-full #main .entry-content .contact__infos .list-type-mail {
   font-weight: bold;
   margin: 1rem 0;
 }
-#content .col-full #main .entry-content .contact__infos .list-type-mail::before {
+.col-full #main .entry-content .contact__infos .list-type-mail::before {
   content: "";
   background-image: url(../../images/childtheme/mail-icone-red.svg);
   background-size: contain;
@@ -144,23 +144,23 @@
   position: relative;
   top: 3px;
 }
-#content .col-full #main .entry-content .contact__infos .list-type-mail a {
+.col-full #main .entry-content .contact__infos .list-type-mail a {
   color: var(--mainGrey);
   text-decoration: none;
 }
-#content .col-full #main .entry-content .margin-column {
+.col-full #main .entry-content .margin-column {
   margin-bottom: 5rem;
 }
-#content .col-full #main .entry-content .column__contact {
+.col-full #main .entry-content .column__contact {
   list-style-type: none;
   color: var(--mainGrey);
   margin: 0;
   font-size: 1.2rem;
 }
-#content .col-full #main .entry-content .column__contact .list-type-place {
+.col-full #main .entry-content .column__contact .list-type-place {
   font-weight: bold;
 }
-#content .col-full #main .entry-content .column__contact .list-type-place::before {
+.col-full #main .entry-content .column__contact .list-type-place::before {
   content: "";
   background-image: url(../../images/childtheme/place-ico-red.svg);
   background-size: contain;
@@ -173,71 +173,71 @@
   position: relative;
   top: 3px;
 }
-#content .col-full #main .entry-content .column__contact ul {
+.col-full #main .entry-content .column__contact ul {
   font-weight: normal;
   margin-left: 2.1rem;
   list-style-type: none;
 }
-#content .col-full #main .entry-content .column__contact ul li {
+.col-full #main .entry-content .column__contact ul li {
   font-size: 1rem;
 }
-#content .col-full #main .entry-content .wpcf7-form {
+.col-full #main .entry-content .wpcf7-form {
   width: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#content .col-full #main .entry-content .wpcf7-form > div {
+.col-full #main .entry-content .wpcf7-form > div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 70rem;
 }
-#content .col-full #main .entry-content .wpcf7-form > div label {
+.col-full #main .entry-content .wpcf7-form > div label {
   text-align: left;
 }
-#content .col-full #main .entry-content .wpcf7-form > div > div {
+.col-full #main .entry-content .wpcf7-form > div > div {
   width: 33rem;
 }
-#content .col-full #main .entry-content .wpcf7-form > div > div label span input {
+.col-full #main .entry-content .wpcf7-form > div > div label span input {
   width: 100%;
   background-color: white;
   border: var(--mainBlue) 2px solid;
 }
-#content .col-full #main .entry-content .wpcf7-form > div:nth-child(4), #content .col-full #main .entry-content .wpcf7-form > div:nth-child(5), #content .col-full #main .entry-content .wpcf7-form > div:nth-child(6) {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(4), .col-full #main .entry-content .wpcf7-form > div:nth-child(5), .col-full #main .entry-content .wpcf7-form > div:nth-child(6) {
   margin-bottom: 1.5rem;
 }
-#content .col-full #main .entry-content .wpcf7-form > div:nth-child(4) label, #content .col-full #main .entry-content .wpcf7-form > div:nth-child(5) label, #content .col-full #main .entry-content .wpcf7-form > div:nth-child(6) label {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(4) label, .col-full #main .entry-content .wpcf7-form > div:nth-child(5) label, .col-full #main .entry-content .wpcf7-form > div:nth-child(6) label {
   width: 70rem;
 }
-#content .col-full #main .entry-content .wpcf7-form > div:nth-child(4) label textarea, #content .col-full #main .entry-content .wpcf7-form > div:nth-child(5) label textarea, #content .col-full #main .entry-content .wpcf7-form > div:nth-child(6) label textarea {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(4) label textarea, .col-full #main .entry-content .wpcf7-form > div:nth-child(5) label textarea, .col-full #main .entry-content .wpcf7-form > div:nth-child(6) label textarea {
   background-color: white;
   border: var(--mainBlue) 2px solid;
 }
-#content .col-full #main .entry-content .wpcf7-form > div:nth-child(5) {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(5) {
   background-color: white;
   border: var(--mainBlue) 2px solid;
   padding-left: 1rem;
   padding-bottom: 0.5rem;
 }
-#content .col-full #main .entry-content .wpcf7-form > div:nth-child(6) {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(6) {
   flex-direction: column;
 }
-#content .col-full #main .entry-content .wpcf7-form > div:nth-child(6) label span input {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(6) label span input {
   width: 100%;
   background-color: white;
   border: var(--mainBlue) 2px solid;
 }
-#content .col-full #main .entry-content .wpcf7-form > div:nth-child(6) .wpcf7-captchac {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(6) .wpcf7-captchac {
   width: 15rem;
   height: 5rem;
   margin-right: 1rem;
 }
-#content .col-full #main .entry-content .wpcf7-form > div:nth-child(7) {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(7) {
   flex-direction: column;
 }
-#content .col-full #main .entry-content .wpcf7-form > div:nth-child(7) input {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(7) input {
   width: 20rem;
   height: 4rem;
   margin-right: 0;
@@ -245,50 +245,55 @@
   background-color: var(--mainBlue);
   color: white;
 }
-#content .col-full #main .entry-content .wpcf7-form > div:nth-child(7) input:hover {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(7) input:hover {
   background-color: var(--mainRed);
 }
-#content .col-full #main .entry-content .wpcf7-form > div:nth-child(7) input:active {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(7) input:active {
   box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
-#content .col-full #main .entry-content .wpcf7-form .wpcf7-response-output {
+.col-full #main .entry-content .wpcf7-form .wpcf7-response-output {
   border: none;
   padding-left: 0;
   color: var(--mainRed);
   margin-top: 0;
 }
-#content .col-full #main .entry-content #wps-slider-section {
+.col-full #main .entry-content #wps-slider-section {
   padding-top: 0;
   margin-bottom: 4rem;
 }
-#content .col-full #main .entry-content #wps-slider-section .slick-arrow {
+.col-full #main .entry-content #wps-slider-section .slick-arrow {
   display: none !important;
 }
+.col-full #main .entry-content #wps-slider-section .slick-track {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 @media (max-width: 1110px) {
-  #content .col-full #main .entry-content {
+  .col-full #main .entry-content {
     max-width: 90vw;
   }
-  #content .col-full #main .entry-content .wpcf7-form > div {
+  .col-full #main .entry-content .wpcf7-form > div {
     width: 90vw;
   }
-  #content .col-full #main .entry-content .wpcf7-form > div > div {
+  .col-full #main .entry-content .wpcf7-form > div > div {
     width: 44vw;
   }
-  #content .col-full #main .entry-content .wpcf7-form > div:nth-child(4) label, #content .col-full #main .entry-content .wpcf7-form > div:nth-child(5) label, #content .col-full #main .entry-content .wpcf7-form > div:nth-child(6) label {
+  .col-full #main .entry-content .wpcf7-form > div:nth-child(4) label, .col-full #main .entry-content .wpcf7-form > div:nth-child(5) label, .col-full #main .entry-content .wpcf7-form > div:nth-child(6) label {
     width: 90vw;
   }
 }
 @media (max-width: 550px) {
-  #content .col-full #main .entry-content .wpcf7-form > div {
+  .col-full #main .entry-content .wpcf7-form > div {
     flex-direction: column;
   }
-  #content .col-full #main .entry-content .wpcf7-form > div > div {
+  .col-full #main .entry-content .wpcf7-form > div > div {
     width: 90vw;
   }
-  #content .col-full #main .entry-content .wpcf7-form > div:nth-child(7) {
+  .col-full #main .entry-content .wpcf7-form > div:nth-child(7) {
     flex-direction: column;
   }
-  #content .col-full #main .entry-content .wpcf7-form > div:nth-child(7) input {
+  .col-full #main .entry-content .wpcf7-form > div:nth-child(7) input {
     width: 90vw;
   }
 }

@@ -36,6 +36,9 @@
 #content .col-full #main .products .product .button:active, #content .col-full #main .products .product .added_to_cart:active {
   box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
+#content .col-full #main .products .product .star-rating {
+  display: none;
+}
 @media (max-width: 767.5px) {
   #content .col-full #main .products {
     width: 20rem;

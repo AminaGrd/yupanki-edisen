@@ -15,7 +15,6 @@
         }
     }
 }
-#content{
 .col-full{
     padding: 0;
     max-width: 70rem;
@@ -281,6 +280,11 @@
                 .slick-arrow{
                     display: none !important;
                 }
+                .slick-track{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
             }
         }
 
@@ -322,7 +326,7 @@
         }
     }
 }
-}
+
 @media (min-width: 768px){
     .storefront-breadcrumb {
         margin-bottom: 1rem !important;

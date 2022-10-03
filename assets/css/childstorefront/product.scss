@@ -2,6 +2,11 @@
 .col-full{
     #main{
         .product{
+            .onsale{
+                border: 1px solid var(--mainRed);
+                background-color: var(--mainRed);
+                color: white;
+            }
             .summary{
                 .cart{
                     input{
@@ -69,15 +74,22 @@
                             background-color: var(--mainBlue);
                             color: white;
                         }
+                        .comment_container{
+                            width: 70rem;
+                            img{
+                                margin-right: 1rem;
+                            }
+                            .comment-text{
+                                // width: 50rem;
+                                // margin-left: 0;
+                                // margin-right: auto;
+                                float: left;
+                            }
+                        }
                     }
                     #review_form_wrapper{
                         #respond{
                             #commentform{
-                                .comment-form-rating{
-                                    p.stars.selected a.active:before, p.stars:hover a:before, p.stars.selected a:not(.active):before, p.stars.selected a.active:before {
-                                        color: #FFD700;
-                                    }
-                                }
                                 textarea{
                                     background-color: white;
                                 }
