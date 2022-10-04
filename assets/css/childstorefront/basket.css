@@ -5,7 +5,10 @@
 .entry-content .woocommerce-cart-form .shop_table tbody .woocommerce-cart-form__cart-item .product-name a {
   color: var(--mainRed);
 }
-.entry-content .woocommerce-cart-form .shop_table tbody tr #coupon_code {
+.entry-content .woocommerce-cart-form .shop_table tbody .woocommerce-cart-form__cart-item .product-quantity input {
+  background-color: white;
+}
+.entry-content .woocommerce-cart-form .shop_table tbody tr .actions .coupon input {
   background-color: white;
 }
 .entry-content .cart-collaterals .cart_totals .shop_table .woocommerce-shipping-totals .woocommerce-shipping-calculator a {

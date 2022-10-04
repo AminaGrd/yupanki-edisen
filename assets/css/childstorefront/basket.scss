@@ -3,19 +3,6 @@
         background-color: var(--mainBlue);
         color: white !important;
     }
-    .return-to-shop{
-        // .button{
-        //     background-color: var(--mainBlue);
-        //     color: white;
-        //     border-radius: 0;
-        //     &:hover{
-        //         background-color: var(--mainRed);
-        //     }
-        //     &:active{
-        //         box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
-        //     }
-        // }
-    }
     .woocommerce-cart-form{
         .shop_table{
             tbody{
@@ -25,21 +12,19 @@
                             color: var(--mainRed);
                         }
                     }
+                    .product-quantity{
+                        input{
+                            background-color: white;
+                        }
+                    }
                 }
                 tr{
-                    // .button{
-                    //     background-color: var(--mainBlue);
-                    //     color: white;
-                    //     border-radius: 0;
-                    //     &:hover{
-                    //         background-color: var(--mainRed);
-                    //     }
-                    //     &:active{
-                    //         box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
-                    //     }
-                    // }
-                    #coupon_code{
-                        background-color: white;
+                    .actions{
+                        .coupon{
+                            input{
+                                background-color: white;
+                            }
+                        }
                     }
                 }
             }
