@@ -80,14 +80,14 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: white;
+  background-color: var(--mainRedLight);
   width: 20rem;
   height: 7rem;
   color: transparent;
 }
 .col-full #main .entry-content .btn_yupanki a:hover {
   background-image: url(../../images/childtheme/Yupanki-logo-blanc.svg);
-  background-color: var(--mainRed);
+  background-color: black;
 }
 .col-full #main .entry-content .button {
   background-color: var(--mainBlue);

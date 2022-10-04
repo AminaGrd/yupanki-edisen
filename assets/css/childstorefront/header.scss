@@ -103,12 +103,15 @@ nav{
                 margin-right: 1rem;
                 padding: 2rem 0;
                 li{
-                    a{
-                        padding: 0.1rem 1rem 0.1rem 0;
-                        color: var(--mainBlue);
-                        text-transform: uppercase;
-                        &:hover{
-                            color: var(--mainRed);
+                    &:first-child{
+                            a{
+                            padding: 0.1rem 1rem 0.1rem 0;
+                            color: var(--mainBlue);
+                            text-transform: uppercase;
+                            border-right: solid var(--mainRed) 2px;
+                            &:hover{
+                                color: var(--mainRed);
+                            }
                         }
                     }
                 }
@@ -120,19 +123,23 @@ nav{
                     top: 5.25rem;
                     left: -1rem;
                     width: 12rem;
-                /* 	background-color: #F1FAFF; */
                     background-color: white;
                     border-right: none;
                     li{
                         padding: 0.5rem 0 0.5rem 1rem;
                         text-transform: none;
-                        border-right: none;
                         a{
                             text-transform: none;
                             color: var(--mainRed);
                             font-size: 0.9rem;
+                            border-right: none;
                             &:hover{
                                 text-decoration: underline;
+                            }
+                        }
+                        &:first-child{
+                            a{
+                                border-right: none;
                             }
                         }
                     }
