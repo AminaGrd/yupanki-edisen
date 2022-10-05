@@ -153,20 +153,25 @@ nav{
         }
         .header-price{
             .site-header-cart{
-                width: 9rem;
+                width: 11rem;
                 .header-cart__price{
-                    .cart-contents::after{
+                    .cart-contents{
+                        display: flex;
+                        justify-content: space-around;
+                        &::after{
                         float: none;
                         padding-left: 1rem;
                         color: var(--mainRed);
+                        }
                     }
+                        
                 }
                 li{
                     .widget_shopping_cart{
                         background-color: transparent;
                         .widget_shopping_cart_content{
                             position: relative;
-                            left: -9rem;
+                            left: -8rem;
                             background-color: white;
                             width: 20rem;
                             padding: 0.5rem;
@@ -266,6 +271,9 @@ nav{
                     .header-cart__price{
                         width: 0px;
                         margin: 0;
+                        .cart-contents{
+                            display: block;
+                        }
                     }
                 }
             }
