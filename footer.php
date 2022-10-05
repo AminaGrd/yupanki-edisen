@@ -50,6 +50,10 @@
 						</ul>
 					</div>
 				</div>
+				<div class="site-footer-paragraph">
+					<p>Un projet d'édition de livre ?</p>
+					<p>Retrouvez notre maison d'édition en Bourgogne Franche-Comté (Dijon) et en Auvergne Rhônes-Alpes (Bourg-en-Bresse) !</p>
+				</div>
 				<div class="site-footer-legals">
 					<ul>
 						<li>

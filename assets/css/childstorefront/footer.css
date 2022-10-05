@@ -88,6 +88,13 @@
   font-weight: bold;
   font-size: 1.1rem;
 }
+#colophon .col-full .footer-infos-legals .site-footer-paragraph p {
+  color: white;
+  text-align: center;
+}
+#colophon .col-full .footer-infos-legals .site-footer-paragraph p:first-child {
+  margin: 0;
+}
 #colophon .col-full .footer-infos-legals .site-footer-legals ul {
   display: flex;
   flex-direction: row;

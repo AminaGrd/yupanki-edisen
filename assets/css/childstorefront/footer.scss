@@ -93,6 +93,15 @@
                     }
                 }
             }
+            .site-footer-paragraph{
+                p{
+                    color: white;
+                    text-align: center;
+                    &:first-child{
+                        margin: 0;
+                    }
+                }
+            }
             .site-footer-legals{
                 ul{
                     display: flex;
