@@ -1,12 +1,23 @@
 #colophon{
     padding: 0;
     .col-full{
+        // margin-top: 0;
         margin-top: 2rem;
         .footer-widgets{
             display: none;
         }
         .site-info{
             display: none;
+        }
+        .promo-footer{
+            p{
+                text-align: center;
+                margin: 1.5rem 0 2rem 0;
+                padding-bottom: 1.5rem;
+                border-bottom: var(--mainRed) solid 1px;
+                color: white;
+                color: white;
+            }
         }
         .footer-infos-legals{
             display: flex;
@@ -94,11 +105,17 @@
                 }
             }
             .site-footer-paragraph{
+                // border-top: solid var(--mainBlue) 1px;
+                // border-bottom: solid var(--mainBlue) 1px;
+                margin-bottom: 1rem;
+                padding: 0.5rem;
                 p{
                     color: white;
                     text-align: center;
+                    margin: 0;
                     &:first-child{
-                        margin: 0;
+                        // margin: 0;
+                        color: var(--mainBlue);
                     }
                 }
             }
@@ -155,7 +172,20 @@
                 }
             }
         }
-
+        @media (max-width: 1010px){
+            .promo-footer{
+                p{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+        @media (max-width: 825px){
+            .promo-footer{
+                p{
+                    font-size: 1rem;
+                }
+            }
+        }
         @media (max-width: 767.5px){
             margin-bottom: 5rem;
             .footer-infos-legals{
@@ -188,6 +218,22 @@
                             &:last-child{
                                 margin-left: 1rem;
                             }
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 530px){
+            .promo-footer{
+                p{
+                    font-size: 0.8rem;
+                }
+            }
+            .footer-infos-legals{
+                .site-footer-paragraph{
+                    p{
+                        br {
+                            display: none;
                         }
                     }
                 }
