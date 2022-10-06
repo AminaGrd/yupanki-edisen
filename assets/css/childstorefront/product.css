@@ -72,6 +72,11 @@
 #content .col-full #main .woocommerce-tabs .woocommerce-Tabs-panel--reviews #reviews #review_form_wrapper #respond #commentform .form-submit input:active {
   box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
+@media (max-width: 768px) {
+  #content .col-full #main .product .products > h2 {
+    font-size: 1.5rem;
+  }
+}
 
 .storefront-sticky-add-to-cart .storefront-sticky-add-to-cart__content .storefront-sticky-add-to-cart__content-product-info .storefront-sticky-add-to-cart__content-title strong {
   color: var(--mainBlue);

@@ -17,9 +17,9 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="col-full">
 			<!-- Modifications childstorefront -->
-				<!-- <div class="promo-footer">
+				<div class="promo-footer">
 					<p>Un projet d'édition de livre ? Retrouvez notre maison d'édition en Bourgogne Franche-Comté (Dijon) et en Auvergne Rhônes-Alpes (Bourg-en-Bresse) !</p>
-				</div> -->
+				</div>
 			<div class="footer-infos-legals">
 				<div class="site-footer-infos">
 					<div class="footer-menu">
@@ -53,10 +53,10 @@
 						</ul>
 					</div>
 				</div>
-				<div class="site-footer-paragraph">
+				<!-- <div class="site-footer-paragraph">
 					<p>Un projet d'édition de livre ?</p>
 					<p>Retrouvez notre maison d'édition en Bourgogne Franche-Comté (Dijon)<br> et en Auvergne Rhônes-Alpes (Bourg-en-Bresse) !</p>
-				</div>
+				</div> -->
 				<div class="site-footer-legals">
 					<ul>
 						<li>

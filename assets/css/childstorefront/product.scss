@@ -115,6 +115,15 @@
                 }
             }
         }
+        @media (max-width: 768px){
+            .product{
+                .products{
+                    >h2{
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
     }
 }
 }

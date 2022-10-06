@@ -29,6 +29,7 @@
   font-weight: bold;
   text-align: left;
   text-transform: uppercase;
+  font-size: 2.5rem;
 }
 .col-full #main .entry-content {
   width: 100vw;
@@ -288,6 +289,17 @@
   }
   .col-full #main .entry-content .wpcf7-form > div:nth-child(4) textarea, .col-full #main .entry-content .wpcf7-form > div:nth-child(5) textarea, .col-full #main .entry-content .wpcf7-form > div:nth-child(6) textarea {
     width: 90vw;
+  }
+}
+@media (max-width: 768px) {
+  .col-full #main h1 {
+    font-size: 2rem;
+  }
+  .col-full #main .entry-content h2 {
+    font-size: 1.5rem;
+  }
+  .col-full #main .entry-content h3 {
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 550px) {
