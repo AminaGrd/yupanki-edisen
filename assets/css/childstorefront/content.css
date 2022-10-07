@@ -32,7 +32,7 @@
   font-size: 2.5rem;
 }
 .col-full #main h1 sup {
-  text-transform: normal;
+  text-transform: lowercase;
 }
 .col-full #main .entry-content {
   width: 100vw;
