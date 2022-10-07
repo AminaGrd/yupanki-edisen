@@ -28,24 +28,7 @@
 							<li>Du lundi au vendredi</li>
 							<li>9h-12h / 13h30-17h30</li>
 						</ul>
-					</div>
-					<div class="footer-logo">
-						<img onclick="location.href='<?php bloginfo('wpurl'); ?>';" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/logo-edisen_white.svg" alt="icone du site">
-					</div>
-					<div class="footer-contact">
 						<ul>
-							<li class="list-type-place">
-								Dijon (21)
-								<ul>
-									<li>20 rue de Montmuzard</li>
-								</ul>
-							</li>
-							<li class="list-type-place">
-								Bourg-en-Bresse (01)
-								<ul>
-									<li>3 bd John Kennedy</li>
-								</ul>
-							</li>
 							<li class="contact-row">
 								<img onclick="location.href='tel:0380423951'" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/tel-icone.svg" alt="icone téléphone">
 								<a href="tel:0380423951">03 80 42 39 51</a>
@@ -53,6 +36,27 @@
 							<li class="contact-row">
 								<img onclick="location.href='mailto:contact@edisen.fr'" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/mail-icone.svg" alt="icone mail">
 								<a href="mailto:contact@edisen.fr">contact@edisen.fr</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-logo">
+						<img onclick="location.href='<?php bloginfo('wpurl'); ?>';" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/logo-edisen_white.svg" alt="icone du site">
+					</div>
+					<div class="footer-contact">
+						<ul>
+							<li class="list-type-place">
+								Bourgogne Franche-Comté
+								<ul>
+									<li>Edisen Dijon</li>
+									<li>20 rue de Montmuzard</li>
+								</ul>
+							</li>
+							<li class="list-type-place">
+								Auvergne-Rhône-Alpes
+								<ul>
+									<li>Edisen Bourg-en-Bresse</li>
+									<li>3 bd John Kennedy</li>
+								</ul>
 							</li>
 						</ul>
 					</div>

@@ -38,12 +38,31 @@
                     ul{
                         margin: 0;
                         list-style-type: none;
+                        &:first-child{
+                            margin-bottom : 2rem;
+                        }
                         li{
                             color: white;
-                            margin-bottom: 1rem;
+                            // margin-bottom: 1rem;
                             &:first-child{
                                 font-size: 1.2rem;
                                 font-weight: bold;
+                            }
+                        }
+                        .contact-row{
+                            display: flex;
+                            flex-direction: row;
+                            margin-top: 0.5rem;
+                            >img{
+                                width: 1.5rem;
+                                cursor: pointer;
+                            }
+                            a{
+                                color: white;
+                                text-decoration: none;
+                                padding-left: 0.7rem;
+                                font-weight: bold;
+                                font-size: 1.1rem;
                             }
                         }
                     }
@@ -81,22 +100,6 @@
                                 li{
                                     font-size: 0.9rem;
                                 }
-                            }
-                        }
-                        .contact-row{
-                            display: flex;
-                            flex-direction: row;
-                            margin-top: 0.5rem;
-                            >img{
-                                width: 1.5rem;
-                                cursor: pointer;
-                            }
-                            a{
-                                color: white;
-                                text-decoration: none;
-                                padding-left: 0.7rem;
-                                font-weight: bold;
-                                font-size: 1.1rem;
                             }
                         }
                     }
@@ -206,6 +209,7 @@
             .footer-infos-legals{
                 .site-footer-infos{
                     flex-direction: column;
+                    margin-bottom :0;
                     .footer-menu{
                         .menu-nav-container{
                             .menu{
@@ -218,8 +222,8 @@
                     .footer-logo{
                         img{
                             width: 12rem;
-                            margin-top:2.5rem;
-                            margin-bottom: 2.5rem;
+                            margin-top:3rem;
+                            margin-bottom: 3rem;
                         }
                     }
                 }
