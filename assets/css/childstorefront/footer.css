@@ -18,6 +18,12 @@
   color: white;
   color: white;
 }
+#colophon .col-full .promo-footer p .br1 {
+  display: none;
+}
+#colophon .col-full .promo-footer p .br2 {
+  display: none;
+}
 #colophon .col-full .footer-infos-legals {
   display: flex;
   flex-direction: column;
@@ -29,23 +35,17 @@
   align-items: center;
   margin-bottom: 2rem;
 }
-#colophon .col-full .footer-infos-legals .site-footer-infos .footer-menu .menu-nav-container .menu {
+#colophon .col-full .footer-infos-legals .site-footer-infos .footer-time ul {
   margin: 0;
-}
-#colophon .col-full .footer-infos-legals .site-footer-infos .footer-menu .menu-nav-container .menu li {
   list-style-type: none;
-  margin-top: 0.5rem;
 }
-#colophon .col-full .footer-infos-legals .site-footer-infos .footer-menu .menu-nav-container .menu li a {
+#colophon .col-full .footer-infos-legals .site-footer-infos .footer-time ul li {
   color: white;
-  text-decoration: none;
-  text-transform: uppercase;
+  margin-bottom: 1rem;
 }
-#colophon .col-full .footer-infos-legals .site-footer-infos .footer-menu .menu-nav-container .menu li a:hover {
-  border-bottom: solid white 1px;
-}
-#colophon .col-full .footer-infos-legals .site-footer-infos .footer-menu .menu-nav-container .menu li:last-child {
-  display: none;
+#colophon .col-full .footer-infos-legals .site-footer-infos .footer-time ul li:first-child {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 #colophon .col-full .footer-infos-legals .site-footer-infos .footer-logo img {
   width: 15rem;
@@ -96,43 +96,27 @@
   font-weight: bold;
   font-size: 1.1rem;
 }
-#colophon .col-full .footer-infos-legals .site-footer-paragraph {
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-}
-#colophon .col-full .footer-infos-legals .site-footer-paragraph p {
-  color: white;
-  text-align: center;
+#colophon .col-full .footer-infos-legals .site-footer-legals .footer-menu .menu-menu-footer-container .menu {
   margin: 0;
-}
-#colophon .col-full .footer-infos-legals .site-footer-paragraph p:first-child {
-  color: var(--mainBlue);
-}
-#colophon .col-full .footer-infos-legals .site-footer-legals ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+#colophon .col-full .footer-infos-legals .site-footer-legals .footer-menu .menu-menu-footer-container .menu li {
   margin: 0.5rem 0;
-}
-#colophon .col-full .footer-infos-legals .site-footer-legals ul span {
-  height: 25px;
-  width: 2px;
-  background-color: white;
-}
-#colophon .col-full .footer-infos-legals .site-footer-legals ul li {
+  padding: 0 1rem;
+  border-right: solid white 1px;
   list-style-type: none;
 }
-#colophon .col-full .footer-infos-legals .site-footer-legals ul li:first-child {
-  margin-right: 2rem;
+#colophon .col-full .footer-infos-legals .site-footer-legals .footer-menu .menu-menu-footer-container .menu li:last-child {
+  border: none;
 }
-#colophon .col-full .footer-infos-legals .site-footer-legals ul li:last-child {
-  margin-left: 2rem;
-}
-#colophon .col-full .footer-infos-legals .site-footer-legals ul li a {
+#colophon .col-full .footer-infos-legals .site-footer-legals .footer-menu .menu-menu-footer-container .menu li a {
   color: white;
   text-decoration: none;
+  font-size: 0.95rem;
 }
-#colophon .col-full .footer-infos-legals .site-footer-legals ul li a:hover {
+#colophon .col-full .footer-infos-legals .site-footer-legals .footer-menu .menu-menu-footer-container .menu li a:hover {
   border-bottom: solid white 1px;
 }
 #colophon .col-full .storefront-handheld-footer-bar ul {
@@ -154,17 +138,21 @@
 }
 @media (max-width: 1010px) {
   #colophon .col-full .promo-footer p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
-}
-@media (max-width: 825px) {
-  #colophon .col-full .promo-footer p {
-    font-size: 1rem;
+  #colophon .col-full .promo-footer p .br1 {
+    display: block;
   }
 }
 @media (max-width: 767.5px) {
   #colophon .col-full {
     margin-bottom: 5rem;
+  }
+  #colophon .col-full .promo-footer p {
+    font-size: 0.9rem;
+  }
+  #colophon .col-full .promo-footer p .br2 {
+    display: block;
   }
   #colophon .col-full .footer-infos-legals .site-footer-infos {
     flex-direction: column;
@@ -177,19 +165,26 @@
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
   }
-  #colophon .col-full .footer-infos-legals .site-footer-legals ul li {
-    list-style-type: none;
+  #colophon .col-full .footer-infos-legals .site-footer-legals .footer-menu {
+    width: 11rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
   }
-  #colophon .col-full .footer-infos-legals .site-footer-legals ul li:first-child {
-    margin-right: 1rem;
+  #colophon .col-full .footer-infos-legals .site-footer-legals .footer-menu .menu-menu-footer-container .menu {
+    flex-direction: column;
   }
-  #colophon .col-full .footer-infos-legals .site-footer-legals ul li:last-child {
-    margin-left: 1rem;
+  #colophon .col-full .footer-infos-legals .site-footer-legals .footer-menu .menu-menu-footer-container .menu li {
+    border: none;
+    padding: 0;
+  }
+  #colophon .col-full .footer-infos-legals .site-footer-legals .footer-menu .menu-menu-footer-container .menu li a {
+    text-transform: uppercase;
   }
 }
 @media (max-width: 530px) {
-  #colophon .col-full .promo-footer p {
-    font-size: 0.8rem;
+  #colophon .col-full .promo-footer p .br2 {
+    display: none;
   }
   #colophon .col-full .footer-infos-legals .site-footer-paragraph p br {
     display: none;

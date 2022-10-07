@@ -18,12 +18,16 @@
 		<div class="col-full">
 			<!-- Modifications childstorefront -->
 				<div class="promo-footer">
-					<p>Un projet d'édition de livre ? Retrouvez notre maison d'édition en Bourgogne Franche-Comté (Dijon) et en Auvergne Rhônes-Alpes (Bourg-en-Bresse) !</p>
+					<p>Un projet d'édition de livre ? <br class="br1">Retrouvez notre maison d'édition en Bourgogne Franche-Comté (Dijon) <br class="br2">et en Auvergne Rhônes-Alpes (Bourg-en-Bresse) !</p>
 				</div>
 			<div class="footer-infos-legals">
 				<div class="site-footer-infos">
-					<div class="footer-menu">
-						<?php wp_nav_menu(array('theme_location' => 'nav')); ?>
+					<div class="footer-time">
+						<ul>
+							<li>Horaires</li>
+							<li>Du lundi au vendredi</li>
+							<li>9h-12h / 13h30-17h30</li>
+						</ul>
 					</div>
 					<div class="footer-logo">
 						<img onclick="location.href='<?php bloginfo('wpurl'); ?>';" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/logo-edisen_white.svg" alt="icone du site">
@@ -53,12 +57,11 @@
 						</ul>
 					</div>
 				</div>
-				<!-- <div class="site-footer-paragraph">
-					<p>Un projet d'édition de livre ?</p>
-					<p>Retrouvez notre maison d'édition en Bourgogne Franche-Comté (Dijon)<br> et en Auvergne Rhônes-Alpes (Bourg-en-Bresse) !</p>
-				</div> -->
 				<div class="site-footer-legals">
-					<ul>
+					<div class="footer-menu">
+						<?php wp_nav_menu(array('menu' => 'menu-footer')); ?>
+					</div>
+					<!-- <ul>
 						<li>
 							<a href="#">Mentions légales</a>
 						</li>
@@ -66,7 +69,7 @@
 						<li>
 							<a href="https://www.yupanki.fr/" target="_blank">Site réalisé par Yupanki</a>
 						</li>
-					</ul>
+					</ul> -->
 				</div>
 			</div>
 			<!-- Fin des modifications -->
