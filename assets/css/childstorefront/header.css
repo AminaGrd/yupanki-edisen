@@ -197,7 +197,7 @@
   }
   #masthead nav .nav__logo img {
     margin-left: 2rem;
-    width: 9rem;
+    width: 8rem;
   }
   #masthead nav .nav__logo span {
     display: none;
@@ -206,7 +206,7 @@
     display: none;
   }
   #masthead nav .menu-nav-container #menu-nav li a {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   #masthead nav .header-account-basket {
     margin-right: 2rem;
@@ -215,7 +215,7 @@
     margin: 0;
   }
   #masthead nav .header-account-basket .header-account > ul li a {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   #masthead nav .header-account-basket .header-price .site-header-cart {
     width: 2rem;
