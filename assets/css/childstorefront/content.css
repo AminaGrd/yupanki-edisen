@@ -80,17 +80,11 @@
   box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 .col-full #main .entry-content .btn_yupanki a {
-  background-image: url(../../images/childtheme/Yupanki-logo-sansbeaseline.svg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: var(--mainRedLight);
-  width: 20rem;
-  height: 7rem;
-  color: transparent;
+  background-color: var(--mainGrey);
+  color: #fdc300;
+  padding: 1rem 2rem;
 }
 .col-full #main .entry-content .btn_yupanki a:hover {
-  background-image: url(../../images/childtheme/Yupanki-logo-blanc.svg);
   background-color: black;
 }
 .col-full #main .entry-content .button {

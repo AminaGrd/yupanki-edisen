@@ -82,17 +82,25 @@
                 }
             }
             .btn_yupanki{
+                // a{
+                //     background-image: url(../../images/childtheme/Yupanki-logo-sansbeaseline.svg);
+                //     background-size: contain;
+                //     background-position: center;
+                //     background-repeat: no-repeat;
+                //     background-color: var(--mainRedLight);
+                //     width: 20rem;
+                //     height: 7rem;
+                //     color: transparent;
+                //     &:hover{
+                //         background-image: url(../../images/childtheme/Yupanki-logo-blanc.svg);
+                //         background-color: black;
+                //     }
+                // }
                 a{
-                    background-image: url(../../images/childtheme/Yupanki-logo-sansbeaseline.svg);
-                    background-size: contain;
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-color: var(--mainRedLight);
-                    width: 20rem;
-                    height: 7rem;
-                    color: transparent;
+                    background-color: var(--mainGrey);
+                    color: #fdc300;
+                    padding: 1rem 2rem;
                     &:hover{
-                        background-image: url(../../images/childtheme/Yupanki-logo-blanc.svg);
                         background-color: black;
                     }
                 }
