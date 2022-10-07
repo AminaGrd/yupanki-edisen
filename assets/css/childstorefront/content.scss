@@ -29,6 +29,9 @@
             text-align: left;
             text-transform: uppercase;
             font-size: 2.5rem;
+            sup{
+                text-transform: normal;
+            }
         }
         .entry-content{
             width: 100vw;

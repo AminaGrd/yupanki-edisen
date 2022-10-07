@@ -31,6 +31,9 @@
   text-transform: uppercase;
   font-size: 2.5rem;
 }
+.col-full #main h1 sup {
+  text-transform: normal;
+}
 .col-full #main .entry-content {
   width: 100vw;
   text-align: left;
