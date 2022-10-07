@@ -29,7 +29,7 @@
   font-weight: bold;
   text-align: left;
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 .col-full #main h1 sup {
   text-transform: lowercase;
@@ -43,6 +43,7 @@
   color: var(--mainBlue);
   font-weight: bold;
   font-size: 2.2rem;
+  margin-top: 2rem;
 }
 .col-full #main .entry-content h3 {
   text-align: left;
