@@ -18,7 +18,7 @@
 		<div class="col-full">
 			<!-- Modifications childstorefront -->
 				<div class="promo-footer">
-					<p>Un projet d'édition de livre ? <br class="br1">Retrouvez notre maison d'édition en Bourgogne Franche-Comté (Dijon) <br class="br2">et en Auvergne Rhônes-Alpes (Bourg-en-Bresse) !</p>
+					<p>Un projet d'édition de livre ? <br class="br1">Retrouvez notre maison d'édition en Bourgogne Franche-Comté (Dijon) <br class="br2">et en Auvergne Rhône-Alpes (Bourg-en-Bresse) !</p>
 				</div>
 			<div class="footer-infos-legals">
 				<div class="site-footer-infos">
