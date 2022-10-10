@@ -241,6 +241,9 @@
                         border: var(--mainBlue) 2px solid;
                         padding-left: 1rem;
                         padding-bottom: 0.5rem;
+                        .codedropz-upload-wrapper{
+                            width: 67rem;
+                        }
                     }
                     &:nth-child(6){
                         flex-direction: column;
@@ -317,6 +320,9 @@
                             textarea{
                                 width: 90vw;
                             }
+                            .codedropz-upload-wrapper{
+                                width: 86vw;
+                            }
                         } 
                     }
                 }
@@ -332,6 +338,15 @@
                 }
                 h3{
                     font-size: 1.2rem;
+                }
+                .wpcf7-form{
+                    >div{
+                        &:nth-child(5){
+                            .codedropz-upload-wrapper{
+                                width: 82vw;
+                            }
+                        } 
+                    }
                 }
             }
         }
