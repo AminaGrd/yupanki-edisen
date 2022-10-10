@@ -22,26 +22,6 @@
 				</div>
 			<div class="footer-infos-legals">
 				<div class="site-footer-infos">
-					<div class="footer-time">
-						<ul>
-							<li>Horaires</li>
-							<li>Du lundi au vendredi</li>
-							<li>9h-12h / 13h30-17h30</li>
-						</ul>
-						<ul>
-							<li class="contact-row">
-								<img onclick="location.href='tel:0380423951'" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/tel-icone.svg" alt="icone téléphone">
-								<a href="tel:0380423951">03 80 42 39 51</a>
-							</li>
-							<li class="contact-row">
-								<img onclick="location.href='mailto:contact@edisen.fr'" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/mail-icone.svg" alt="icone mail">
-								<a href="mailto:contact@edisen.fr">contact@edisen.fr</a>
-							</li>
-						</ul>
-					</div>
-					<div class="footer-logo">
-						<img onclick="location.href='<?php bloginfo('wpurl'); ?>';" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/logo-edisen_white.svg" alt="icone du site">
-					</div>
 					<div class="footer-contact">
 						<ul>
 							<li class="list-type-place">
@@ -57,6 +37,26 @@
 									<li>Edisen Bourg-en-Bresse</li>
 									<li>3 bd John Kennedy</li>
 								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-logo">
+						<img onclick="location.href='<?php bloginfo('wpurl'); ?>';" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/logo-edisen_white.svg" alt="icone du site">
+					</div>
+					<div class="footer-time">
+						<ul>
+							<li>Horaires</li>
+							<li>Du lundi au vendredi</li>
+							<li>9h-12h / 13h30-17h30</li>
+						</ul>
+						<ul>
+							<li class="contact-row">
+								<img onclick="location.href='tel:0380423951'" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/tel-icone.svg" alt="icone téléphone">
+								<a href="tel:0380423951">03 80 42 39 51</a>
+							</li>
+							<li class="contact-row">
+								<img onclick="location.href='mailto:contact@edisen.fr'" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/mail-icone.svg" alt="icone mail">
+								<a href="mailto:contact@edisen.fr">contact@edisen.fr</a>
 							</li>
 						</ul>
 					</div>
