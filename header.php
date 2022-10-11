@@ -51,7 +51,10 @@
 		<!-- Modifications childstorefront -->
 		<nav>
 			<div class="nav__logo">
-        		<img onclick="location.href='<?php bloginfo('wpurl'); ?>';" src="<?php bloginfo('wpurl'); ?>/wp-content/uploads/2022/09/logo-edisen_couleur.jpg" alt="icone du site">
+        		<!-- <img onclick="location.href='<?php bloginfo('wpurl'); ?>';" src="<?php bloginfo('wpurl'); ?>/wp-content/uploads/2022/09/logo-edisen_couleur.jpg" alt="icone du site"> -->
+				<a href="<?php bloginfo('wpurl'); ?>">
+					<img src="<?php bloginfo('wpurl'); ?>/wp-content/uploads/2022/09/logo-edisen_couleur.jpg" alt="icone du site">
+				</a>
 				<!-- <span></span>
 				<ul>
 					<li>Dijon (21)</li>

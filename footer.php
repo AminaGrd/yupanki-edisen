@@ -41,7 +41,7 @@
 						</ul>
 					</div>
 					<div class="footer-logo">
-						<img onclick="location.href='<?php bloginfo('wpurl'); ?>';" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/logo-edisen_white.svg" alt="icone du site">
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/logo-edisen_white.svg" alt="icone du site">
 					</div>
 					<div class="footer-time">
 						<ul>

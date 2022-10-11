@@ -205,7 +205,7 @@
   border: var(--mainBlue) 2px solid;
 }
 .col-full #main .entry-content .wpcf7-form > div > div label {
-  color: rgba(255, 255, 255, 0);
+  opacity: 0;
 }
 .col-full #main .entry-content .wpcf7-form > div:nth-child(4), .col-full #main .entry-content .wpcf7-form > div:nth-child(5), .col-full #main .entry-content .wpcf7-form > div:nth-child(6) {
   margin-bottom: 1.5rem;
