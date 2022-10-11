@@ -13,6 +13,7 @@
             .text-404{
                 position: absolute;
                 z-index: 2;
+                padding: 0.5rem;
                 p{
                     color: white;
                 }
@@ -21,8 +22,27 @@
                 width: 40rem;
                 height: 10rem;
                 position: absolute;
-                // backdrop-filter: blur(5px);
                 background-color: rgba(0, 0, 0, 0.775);
+            }
+        }
+        @media (max-width: 767.5px){
+            img{
+                display: none;
+            }
+            .error-404__float{
+                position: relative;
+                width: 90vw;
+                height: fit-content;
+                display: block;
+                .text-404{
+                    position: relative;
+                    p{
+                        color: black;
+                    }
+                }
+                .blur-404{
+                    display: none;
+                }
             }
         }
     }
