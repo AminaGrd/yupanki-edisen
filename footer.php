@@ -51,11 +51,15 @@
 						</ul>
 						<ul>
 							<li class="contact-row">
-								<img onclick="location.href='tel:0380423951'" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/tel-icone.svg" alt="icone téléphone">
+								<a href="tel:0380423951">
+									<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/tel-icone.svg" alt="icone téléphone">
+								</a>
 								<a href="tel:0380423951">03 80 42 39 51</a>
 							</li>
 							<li class="contact-row">
-								<img onclick="location.href='mailto:contact@edisen.fr'" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/mail-icone.svg" alt="icone mail">
+								<a href="mailto:contact@edisen.fr">
+									<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/mail-icone.svg" alt="icone mail">
+								</a>
 								<a href="mailto:contact@edisen.fr">contact@edisen.fr</a>
 							</li>
 						</ul>

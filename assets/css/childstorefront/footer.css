@@ -54,16 +54,18 @@
   flex-direction: row;
   margin-top: 0.5rem;
 }
-#colophon .col-full .footer-infos-legals .site-footer-infos .footer-time ul .contact-row > img {
-  width: 1.5rem;
-  cursor: pointer;
-}
 #colophon .col-full .footer-infos-legals .site-footer-infos .footer-time ul .contact-row a {
   color: white;
   text-decoration: none;
-  padding-left: 0.7rem;
   font-weight: bold;
   font-size: 1.1rem;
+}
+#colophon .col-full .footer-infos-legals .site-footer-infos .footer-time ul .contact-row a:last-child {
+  padding-left: 0.7rem;
+}
+#colophon .col-full .footer-infos-legals .site-footer-infos .footer-time ul .contact-row a > img {
+  width: 1.5rem;
+  cursor: pointer;
 }
 #colophon .col-full .footer-infos-legals .site-footer-infos .footer-logo img {
   width: 15rem;
