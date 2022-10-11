@@ -1,0 +1,29 @@
+.error-404{
+    .page-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .error-404__float{
+            position: absolute;
+            width: 40rem;
+            height: 10rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .text-404{
+                position: absolute;
+                z-index: 2;
+                p{
+                    color: white;
+                }
+            }
+            .blur-404{
+                width: 40rem;
+                height: 10rem;
+                position: absolute;
+                // backdrop-filter: blur(5px);
+                background-color: rgba(0, 0, 0, 0.775);
+            }
+        }
+    }
+}

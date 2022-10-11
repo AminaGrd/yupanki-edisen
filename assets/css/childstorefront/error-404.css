@@ -1,0 +1,26 @@
+.error-404 .page-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error-404 .page-content .error-404__float {
+  position: absolute;
+  width: 40rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error-404 .page-content .error-404__float .text-404 {
+  position: absolute;
+  z-index: 2;
+}
+.error-404 .page-content .error-404__float .text-404 p {
+  color: white;
+}
+.error-404 .page-content .error-404__float .blur-404 {
+  width: 40rem;
+  height: 10rem;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.775);
+}/*# sourceMappingURL=error-404.css.map */

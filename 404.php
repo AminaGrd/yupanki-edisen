@@ -8,20 +8,18 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-
 		<main id="main" class="site-main" role="main">
 
 			<div class="error-404 not-found">
-
 				<div class="page-content">
-
-					<header class="page-header">
-						<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'storefront' ); ?></h1>
-					</header><!-- .page-header -->
-
-					<p><?php esc_html_e( 'Nothing was found at this location. Try searching, or check out the links below.', 'storefront' ); ?></p>
-
-
+					<div class="error-404__float">
+						<div class="text-404">
+							<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'storefront' ); ?></h1>
+							<p><?php esc_html_e( 'Nothing was found at this location. Try searching, or check out the links below.', 'storefront' ); ?></p>
+						</div>
+						<div class="blur-404"></div>
+					</div>
+					<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/error-404.jpg" alt="illustration error 404">
 				</div><!-- .page-content -->
 			</div><!-- .error-404 -->
 

@@ -72,6 +72,12 @@ function register_assets(){
 		array(),
 		'1.0'
     );
+	wp_enqueue_style(
+		'error-404-css',
+		get_stylesheet_directory_uri().'/assets/css/childstorefront/error-404.css',
+		array(),
+		'1.0'
+    );
 	// wp_enqueue_script(
 	// 	'header-js',
 	// 	get_stylesheet_directory_uri().'/assets/js/header.js',

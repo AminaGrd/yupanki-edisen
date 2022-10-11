@@ -65,15 +65,6 @@
 					<div class="footer-menu">
 						<?php wp_nav_menu(array('menu' => 'menu-footer')); ?>
 					</div>
-					<!-- <ul>
-						<li>
-							<a href="#">Mentions légales</a>
-						</li>
-						<span></span>
-						<li>
-							<a href="https://www.yupanki.fr/" target="_blank">Site réalisé par Yupanki</a>
-						</li>
-					</ul> -->
 				</div>
 			</div>
 			<!-- Fin des modifications -->
@@ -130,27 +121,6 @@ function crossMenu() {
     }
 }
 </script>
-<!-- <script>
-function sub_menu() {
-	if ( is_user_logged_in() ) 
-	{
-		<ul class="sub-menu">
-			<li>
-				<a href="<?php bloginfo('wpurl'); ?>/mon-compte/orders/">Mes commandes</a>
-			</li>
-			<li>
-				<a href="<?php bloginfo('wpurl'); ?>/mon-compte/edit-address/">Mes adresses</a>
-			</li>
-			<li>
-				<a href="<?php bloginfo('wpurl'); ?>/mon-compte/edit-account/">Détails de mon compte</a>
-			</li>
-			<li>
-				<a href="<?php bloginfo('wpurl'); ?>/mon-compte/customer-logout/">Déconnexion</a>
-			</li>
-		</ul>
-	}
-}
-</script> -->
 
 <!-- Fin des modifications script -->
 </body>

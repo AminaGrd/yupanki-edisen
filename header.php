@@ -35,7 +35,6 @@
 			<a href="<?php echo wp_logout_url( home_url() ); ?>">Se déconnecter</a>
 			<a onclick="LogOut()">Annuler</a>
 		</div>
-		
 	</div>
 	<div class="popup-blur"></div>
 </div>
