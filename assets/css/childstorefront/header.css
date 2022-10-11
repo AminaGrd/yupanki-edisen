@@ -1,3 +1,62 @@
+.popup {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  display: none;
+}
+.popup.display {
+  display: block;
+}
+.popup #popup-logout {
+  display: none;
+  background-color: white;
+  width: 30rem;
+  padding-top: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15vh;
+  z-index: 1001;
+  flex-direction: column;
+}
+.popup #popup-logout p {
+  padding: 0 1rem;
+}
+.popup #popup-logout > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.popup #popup-logout > div a {
+  cursor: pointer;
+  width: 15rem;
+  text-align: center;
+  padding: 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+.popup #popup-logout > div a:first-child {
+  background-color: var(--mainRed);
+}
+.popup #popup-logout > div a:last-child {
+  background-color: var(--mainBlue);
+}
+.popup #popup-logout > div a:hover {
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.popup #popup-logout.display {
+  display: flex;
+}
+.popup .popup-blur {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
 #masthead {
   padding: 0;
   margin: 0;
@@ -124,6 +183,7 @@
   color: var(--mainRed);
   font-size: 0.9rem;
   border-right: none;
+  cursor: pointer;
 }
 #masthead nav .header-account-basket .header-account > ul .sub-menu li a:hover {
   text-decoration: underline;

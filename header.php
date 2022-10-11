@@ -16,34 +16,36 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
+<script>
+	function LogOut() {
+		let popup = document.getElementsByClassName('popup')[0];
+		document.getElementById('popup-logout').classList.toggle('display');
+		popup.classList.toggle('display')[0];
+}
+</script>
 </head>
 
 <body <?php body_class(); ?>>
 
 <?php wp_body_open(); ?>
+<div class="popup">
+	<div id="popup-logout">
+		<p>Voulez-vous vraiment vous déconnecter ?</p>
+		<div>
+			<a href="<?php echo wp_logout_url( home_url() ); ?>">Se déconnecter</a>
+			<a onclick="LogOut()">Annuler</a>
+		</div>
+		
+	</div>
+	<div class="popup-blur"></div>
+</div>
 
 <?php do_action( 'storefront_before_site' ); ?>
 
 <div id="page" class="hfeed site">
 	<?php do_action( 'storefront_before_header' ); ?>
 
-	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>">
-		<!-- /**
-		 * Functions hooked into storefront_header action
-		 *
-		 * @hooked storefront_header_container                 - 0
-		 * @hooked storefront_skip_links                       - 5
-		 * @hooked storefront_social_icons                     - 10
-		 * @hooked storefront_site_branding                    - 20
-		 * @hooked storefront_secondary_navigation             - 30
-		 * @hooked storefront_product_search                   - 40
-		 * @hooked storefront_header_container_close           - 41
-		 * @hooked storefront_primary_navigation_wrapper       - 42
-		 * @hooked storefront_primary_navigation               - 50
-		 * @hooked storefront_header_cart                      - 60
-		 * @hooked storefront_primary_navigation_wrapper_close - 68
-		 */
-		// do_action( 'storefront_header' ); -->
+	<header id="masthead" class="site-header" style="<?php storefront_header_styles(); ?>">
 		<!-- Modifications childstorefront -->
 		<nav>
 			<div class="nav__logo">
@@ -63,20 +65,23 @@
 						<li>
 							<a href="<?php bloginfo('wpurl'); ?>/mon-compte/">Mon compte</a>
 						</li>
-						<ul class="sub-menu">
-							<li>
-								<a href="<?php bloginfo('wpurl'); ?>/mon-compte/orders/">Mes commandes</a>
-							</li>
-							<li>
-								<a href="<?php bloginfo('wpurl'); ?>/mon-compte/edit-address/">Mes adresses</a>
-							</li>
-							<li>
-								<a href="<?php bloginfo('wpurl'); ?>/mon-compte/edit-account/">Détails de mon compte</a>
-							</li>
-							<li>
-								<a href="<?php bloginfo('wpurl'); ?>/mon-compte/customer-logout/">Déconnexion</a>
-							</li>
-						</ul>
+						<li>
+							<ul class="sub-menu">
+								<li>
+									<a href="<?php bloginfo('wpurl'); ?>/mon-compte/orders/">Mes commandes</a>
+								</li>
+								<li>
+									<a href="<?php bloginfo('wpurl'); ?>/mon-compte/edit-address/">Mes adresses</a>
+								</li>
+								<li>
+									<a href="<?php bloginfo('wpurl'); ?>/mon-compte/edit-account/">Détails de mon compte</a>
+								</li>
+								<li>
+									<a onclick="LogOut()">Déconnexion</a>
+								</li>
+							</ul>
+						</li>
+						
 					<?php } else {?>
 						<li>
 						<a href="<?php bloginfo('wpurl'); ?>/mon-compte/">Se connecter</a>

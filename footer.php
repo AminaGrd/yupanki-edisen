@@ -14,7 +14,7 @@
 
 	<?php do_action( 'storefront_before_footer' ); ?>
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer">
 		<div class="col-full">
 			<!-- Modifications childstorefront -->
 				<div class="promo-footer">
@@ -130,7 +130,7 @@ function crossMenu() {
     }
 }
 </script>
-<script>
+<!-- <script>
 function sub_menu() {
 	if ( is_user_logged_in() ) 
 	{
@@ -150,7 +150,8 @@ function sub_menu() {
 		</ul>
 	}
 }
-</script>
+</script> -->
+
 <!-- Fin des modifications script -->
 </body>
 </html>
