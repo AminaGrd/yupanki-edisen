@@ -205,7 +205,12 @@
   border: var(--mainBlue) 2px solid;
 }
 .col-full #main .entry-content .wpcf7-form > div > div label {
-  opacity: 0;
+  font-size: 0px;
+  color: transparent;
+}
+.col-full #main .entry-content .wpcf7-form > div > div label input, .col-full #main .entry-content .wpcf7-form > div > div label textarea {
+  font-size: 1rem;
+  color: var(--mainGrey);
 }
 .col-full #main .entry-content .wpcf7-form > div:nth-child(4), .col-full #main .entry-content .wpcf7-form > div:nth-child(5), .col-full #main .entry-content .wpcf7-form > div:nth-child(6) {
   margin-bottom: 1.5rem;

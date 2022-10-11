@@ -222,8 +222,12 @@
                             }
                         }
                         label{
-                            opacity: 0;
-                            // color:rgba(255, 255, 255, 0);
+                            font-size: 0px;
+                            color: transparent;
+                            input, textarea{
+                                font-size: 1rem;
+                                color: var(--mainGrey);
+                            }
                         }
                     }
                     &:nth-child(4), &:nth-child(5), &:nth-child(6){
