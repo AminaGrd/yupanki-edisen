@@ -1,5 +1,5 @@
 .popup {
-  position: absolute;
+  position: fixed;
   width: 100vw;
   height: 100vh;
   z-index: 1000;
@@ -11,6 +11,7 @@
 .popup #popup-logout {
   display: none;
   background-color: white;
+  border: rgb(230, 230, 230) solid 1px;
   width: 30rem;
   padding-top: 1rem;
   margin-right: auto;

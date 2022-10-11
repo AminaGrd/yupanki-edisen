@@ -6,7 +6,7 @@
 .error-404 .page-content .error-404__float {
   position: absolute;
   width: 40rem;
-  height: 10rem;
+  height: 12rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,9 +19,18 @@
 .error-404 .page-content .error-404__float .text-404 p {
   color: white;
 }
+.error-404 .page-content .error-404__float .text-404 .return-shop {
+  background-color: var(--mainBlue);
+  color: white;
+  margin-bottom: 1rem;
+  font-weight: normal;
+}
+.error-404 .page-content .error-404__float .text-404 .return-shop:hover {
+  background-color: var(--mainRed);
+}
 .error-404 .page-content .error-404__float .blur-404 {
   width: 40rem;
-  height: 10rem;
+  height: 12rem;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.775);
 }
