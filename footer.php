@@ -86,8 +86,9 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-<!-- <script src="<?php bloginfo('template_directory'); ?>/assets/js/header.js"></script> -->
+
 <!-- Modifications childstorefront script -->
+
 <script>
 const burger = document.getElementById('burger');
 const inMenu = document.querySelector("nav ul.menu");
@@ -123,5 +124,6 @@ function crossMenu() {
 </script>
 
 <!-- Fin des modifications script -->
+
 </body>
 </html>

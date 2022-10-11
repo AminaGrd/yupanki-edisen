@@ -16,6 +16,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
+<!-- Modifications childstorefront script-->
 <script>
 	function LogOut() {
 		let popup = document.getElementsByClassName('popup')[0];
@@ -23,11 +24,13 @@
 		popup.classList.toggle('display')[0];
 }
 </script>
+<!-- Fin des modifications script-->
 </head>
 
 <body <?php body_class(); ?>>
 
 <?php wp_body_open(); ?>
+<!-- Modifications childstorefront -->
 <div class="popup">
 	<div id="popup-logout">
 		<p>Voulez-vous vraiment vous déconnecter ?</p>
@@ -38,7 +41,7 @@
 	</div>
 	<div class="popup-blur"></div>
 </div>
-
+<!-- Fin des modifications -->
 <?php do_action( 'storefront_before_site' ); ?>
 
 <div id="page" class="hfeed site">
