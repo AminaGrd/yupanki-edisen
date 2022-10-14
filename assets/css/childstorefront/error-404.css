@@ -24,6 +24,7 @@
   color: white;
   margin-bottom: 1rem;
   font-weight: normal;
+  padding: 1rem 2rem;
 }
 .error-404 .page-content .error-404__float .text-404 .return-shop:hover {
   background-color: var(--mainRed);
