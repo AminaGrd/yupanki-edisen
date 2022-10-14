@@ -16,7 +16,7 @@ get_header(); ?>
 						<div class="text-404">
 							<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'storefront' ); ?></h1>
 							<p><?php esc_html_e( 'Rien n&rsquo;est disponible ici.', 'storefront' ); ?></p>
-							<button href="" class="return-shop">Retour dans la boutique</button>
+							<button href="<?php bloginfo('wpurl'); ?>/boutique/" class="return-shop">Retour dans la boutique</button>
 						</div>
 						<div class="blur-404"></div>
 					</div>
