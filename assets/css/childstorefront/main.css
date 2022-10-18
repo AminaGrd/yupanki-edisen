@@ -5,6 +5,10 @@
   --mainGrey: #2C2E35;
 }
 
+@font-face {
+  font-family: "Koblenz";
+  src: url("/assets/fonts/koblenz-serial-light-regular.ttf");
+}
 html {
   font-size: 15px;
 }/*# sourceMappingURL=main.css.map */
