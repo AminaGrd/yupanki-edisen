@@ -106,6 +106,16 @@
                     }
                 }
             }
+            .btn_edisen{
+                a{
+                    background-color: var(--mainRed);
+                    color: white;
+                    padding: 1rem 2rem;
+                    &:hover{
+                        background-color: var(--mainBlue);
+                    }
+                }
+            }
             .button{
                 background-color: var(--mainBlue);
                 color: white;
@@ -195,6 +205,42 @@
                     list-style-type: none;
                     li{
                         font-size: 1rem;
+                    }
+                }
+            }
+            .column-yupanki-edisen{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                >div{
+                    width: 33rem;
+                }
+            }
+            .column_manufacture{
+                .wp-block-columns{
+                    .wp-block-column{
+                        background-color: var(--mainBlue);
+                        margin: 0;
+                        &:nth-child(2), &:nth-child(4){
+                            background-color: var(--mainRed);
+                        }
+                        p{
+                            color: white;
+                            padding: 0 0.5rem;
+                            &:first-child{
+                                font-size: 2rem;
+                                margin-bottom: 0;
+                                text-align: center;
+                            }
+                        }
+                    }
+                    &:last-child{
+                        .wp-block-column{
+                            background-color: var(--mainRed);
+                            &:nth-child(2), &:nth-child(4){
+                                background-color: var(--mainBlue);
+                            }
+                        }
                     }
                 }
             }
@@ -336,6 +382,42 @@
                         } 
                     }
                 }
+                .column-yupanki-edisen{
+                    flex-direction: column;
+                    >div{
+                        width: 90vw;
+                    }
+                }
+            }
+        }
+        @media (max-width: 782px){
+            .entry-content{
+                .column_manufacture{
+                    .wp-block-columns{
+                        display: flex;
+                        flex-wrap: wrap;
+                        .wp-block-column{
+                            flex-basis: 40vw !important;
+                            &:nth-child(2), &:nth-child(3){
+                                background-color: var(--mainRed);
+                            }
+                            &:nth-child(4){
+                                background-color: var(--mainBlue);
+                            }
+                        }
+                        &:last-child{
+                            .wp-block-column{
+                                background-color: var(--mainBlue);
+                                &:nth-child(2), &:nth-child(4){
+                                    background-color: var(--mainRed);
+                                }
+                                &:nth-child(3){
+                                    background-color: var(--mainBlue);
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
         @media (max-width: 768px){
@@ -362,6 +444,30 @@
         }
         @media (max-width: 550px){
             .entry-content{
+                .column_manufacture{
+                    .wp-block-columns{
+                        .wp-block-column{
+                            flex-basis: 100% !important;
+                            &:nth-child(2), &:nth-child(4){
+                                background-color: var(--mainRed);
+                            }
+                            &:nth-child(3){
+                                background-color: var(--mainBlue);
+                            }
+                        }
+                        &:last-child{
+                            .wp-block-column{
+                                background-color: var(--mainBlue);
+                                &:nth-child(2), &:nth-child(4){
+                                    background-color: var(--mainRed);
+                                }
+                            }
+                            &:nth-child(3){
+                                background-color: var(--mainBlue);
+                            }
+                        }
+                    }
+                }
                 .wpcf7-form{
                     >div{
                         flex-direction: column;
