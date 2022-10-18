@@ -51,6 +51,22 @@
   font-weight: bold;
   font-size: 1.8rem;
 }
+.col-full #main .entry-content h4 {
+  color: var(--mainRed);
+}
+.col-full #main .entry-content h4::before {
+  content: "";
+  background-image: url(../../images/childtheme/puce-h4.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+  position: relative;
+  top: 3px;
+}
 .col-full #main .entry-content p {
   color: var(--mainGrey);
 }
@@ -218,6 +234,32 @@
 .col-full #main .entry-content .column_manufacture .wp-block-columns:last-child .wp-block-column:nth-child(2), .col-full #main .entry-content .column_manufacture .wp-block-columns:last-child .wp-block-column:nth-child(4) {
   background-color: var(--mainBlue);
 }
+.col-full #main .entry-content .list-libraries > ul {
+  margin: 0;
+  margin-left: 1rem;
+}
+.col-full #main .entry-content .list-libraries > ul > li {
+  color: var(--mainRed);
+  list-style-type: none;
+}
+.col-full #main .entry-content .list-libraries > ul > li::before {
+  content: "";
+  background-image: url(../../images/childtheme/puce-h4.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1.2rem;
+  height: 1.2rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+  position: relative;
+  top: 3px;
+}
+.col-full #main .entry-content .list-libraries > ul > li ul li {
+  list-style-type: none;
+  color: var(--mainGrey);
+  margin-left: 0.7rem;
+}
 .col-full #main .entry-content .wpcf7-form {
   width: 100%;
   margin: auto;
@@ -383,6 +425,14 @@
   }
   .col-full #main .entry-content h3 {
     font-size: 1.2rem;
+  }
+  .col-full #main .entry-content h4 {
+    font-size: 1rem;
+  }
+  .col-full #main .entry-content h4::before {
+    content: "";
+    width: 1.2rem;
+    height: 1.2rem;
   }
   .col-full #main .entry-content .wpcf7-form > div:nth-child(6) .codedropz-upload-wrapper {
     width: 82vw;
