@@ -187,6 +187,11 @@
   flex-direction: column;
   align-items: center;
 }
+.col-full #main .entry-content .wpcf7-form > p {
+  margin-bottom: 0.5rem;
+  color: var(--mainBlue);
+  font-weight: bold;
+}
 .col-full #main .entry-content .wpcf7-form > div {
   display: flex;
   flex-direction: row;
@@ -212,43 +217,43 @@
   font-size: 1rem;
   color: var(--mainGrey);
 }
-.col-full #main .entry-content .wpcf7-form > div:nth-child(4), .col-full #main .entry-content .wpcf7-form > div:nth-child(5), .col-full #main .entry-content .wpcf7-form > div:nth-child(6) {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(4), .col-full #main .entry-content .wpcf7-form > div:nth-child(6), .col-full #main .entry-content .wpcf7-form > div:nth-child(7) {
   margin-bottom: 1.5rem;
 }
-.col-full #main .entry-content .wpcf7-form > div:nth-child(4) label, .col-full #main .entry-content .wpcf7-form > div:nth-child(5) label, .col-full #main .entry-content .wpcf7-form > div:nth-child(6) label {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(4) label, .col-full #main .entry-content .wpcf7-form > div:nth-child(6) label, .col-full #main .entry-content .wpcf7-form > div:nth-child(7) label {
   width: 70rem;
 }
-.col-full #main .entry-content .wpcf7-form > div:nth-child(4) textarea, .col-full #main .entry-content .wpcf7-form > div:nth-child(5) textarea, .col-full #main .entry-content .wpcf7-form > div:nth-child(6) textarea {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(4) textarea, .col-full #main .entry-content .wpcf7-form > div:nth-child(6) textarea, .col-full #main .entry-content .wpcf7-form > div:nth-child(7) textarea {
   width: 70rem;
   background-color: white;
   border: var(--mainBlue) 2px solid;
 }
-.col-full #main .entry-content .wpcf7-form > div:nth-child(5) {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(6) {
   background-color: white;
   border: var(--mainBlue) 2px solid;
   padding-left: 1rem;
   padding-bottom: 0.5rem;
 }
-.col-full #main .entry-content .wpcf7-form > div:nth-child(5) .codedropz-upload-wrapper {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(6) .codedropz-upload-wrapper {
   width: 67rem;
-}
-.col-full #main .entry-content .wpcf7-form > div:nth-child(6) {
-  flex-direction: column;
-}
-.col-full #main .entry-content .wpcf7-form > div:nth-child(6) label span input {
-  width: 100%;
-  background-color: white;
-  border: var(--mainBlue) 2px solid;
-}
-.col-full #main .entry-content .wpcf7-form > div:nth-child(6) .wpcf7-captchac {
-  width: 15rem;
-  height: 5rem;
-  margin-right: 1rem;
 }
 .col-full #main .entry-content .wpcf7-form > div:nth-child(7) {
   flex-direction: column;
 }
-.col-full #main .entry-content .wpcf7-form > div:nth-child(7) input {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(7) label span input {
+  width: 100%;
+  background-color: white;
+  border: var(--mainBlue) 2px solid;
+}
+.col-full #main .entry-content .wpcf7-form > div:nth-child(7) .wpcf7-captchac {
+  width: 15rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+.col-full #main .entry-content .wpcf7-form > div:nth-child(8) {
+  flex-direction: column;
+}
+.col-full #main .entry-content .wpcf7-form > div:nth-child(8) input {
   width: 20rem;
   height: 4rem;
   margin-right: 0;
@@ -256,10 +261,10 @@
   background-color: var(--mainBlue);
   color: white;
 }
-.col-full #main .entry-content .wpcf7-form > div:nth-child(7) input:hover {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(8) input:hover {
   background-color: var(--mainRed);
 }
-.col-full #main .entry-content .wpcf7-form > div:nth-child(7) input:active {
+.col-full #main .entry-content .wpcf7-form > div:nth-child(8) input:active {
   box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 .col-full #main .entry-content .wpcf7-form .wpcf7-response-output {
@@ -291,13 +296,13 @@
   .col-full #main .entry-content .wpcf7-form > div > div {
     width: 44vw;
   }
-  .col-full #main .entry-content .wpcf7-form > div:nth-child(4) label, .col-full #main .entry-content .wpcf7-form > div:nth-child(5) label, .col-full #main .entry-content .wpcf7-form > div:nth-child(6) label {
+  .col-full #main .entry-content .wpcf7-form > div:nth-child(4) label, .col-full #main .entry-content .wpcf7-form > div:nth-child(6) label, .col-full #main .entry-content .wpcf7-form > div:nth-child(7) label {
     width: 90vw;
   }
-  .col-full #main .entry-content .wpcf7-form > div:nth-child(4) textarea, .col-full #main .entry-content .wpcf7-form > div:nth-child(5) textarea, .col-full #main .entry-content .wpcf7-form > div:nth-child(6) textarea {
+  .col-full #main .entry-content .wpcf7-form > div:nth-child(4) textarea, .col-full #main .entry-content .wpcf7-form > div:nth-child(6) textarea, .col-full #main .entry-content .wpcf7-form > div:nth-child(7) textarea {
     width: 90vw;
   }
-  .col-full #main .entry-content .wpcf7-form > div:nth-child(4) .codedropz-upload-wrapper, .col-full #main .entry-content .wpcf7-form > div:nth-child(5) .codedropz-upload-wrapper, .col-full #main .entry-content .wpcf7-form > div:nth-child(6) .codedropz-upload-wrapper {
+  .col-full #main .entry-content .wpcf7-form > div:nth-child(4) .codedropz-upload-wrapper, .col-full #main .entry-content .wpcf7-form > div:nth-child(6) .codedropz-upload-wrapper, .col-full #main .entry-content .wpcf7-form > div:nth-child(7) .codedropz-upload-wrapper {
     width: 86vw;
   }
 }
@@ -311,7 +316,7 @@
   .col-full #main .entry-content h3 {
     font-size: 1.2rem;
   }
-  .col-full #main .entry-content .wpcf7-form > div:nth-child(5) .codedropz-upload-wrapper {
+  .col-full #main .entry-content .wpcf7-form > div:nth-child(6) .codedropz-upload-wrapper {
     width: 82vw;
   }
 }
@@ -322,10 +327,10 @@
   .col-full #main .entry-content .wpcf7-form > div > div {
     width: 90vw;
   }
-  .col-full #main .entry-content .wpcf7-form > div:nth-child(7) {
+  .col-full #main .entry-content .wpcf7-form > div:nth-child(8) {
     flex-direction: column;
   }
-  .col-full #main .entry-content .wpcf7-form > div:nth-child(7) input {
+  .col-full #main .entry-content .wpcf7-form > div:nth-child(8) input {
     width: 90vw;
   }
 }
