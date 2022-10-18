@@ -41,7 +41,7 @@
 						</ul>
 					</div>
 					<div class="footer-logo">
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/logo-edisen_white.svg" alt="icone du site">
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/childtheme/logo-edisen_white.svg" alt="logo du site en blanc">
 					</div>
 					<div class="footer-time">
 						<ul>

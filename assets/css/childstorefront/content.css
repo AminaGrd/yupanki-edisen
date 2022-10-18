@@ -260,6 +260,9 @@
   color: var(--mainGrey);
   margin-left: 0.7rem;
 }
+.col-full #main .entry-content .cadre-white-bold strong {
+  color: var(--mainBlue);
+}
 .col-full #main .entry-content .wpcf7-form {
   width: 100%;
   margin: auto;
