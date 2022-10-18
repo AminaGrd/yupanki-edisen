@@ -392,10 +392,10 @@
     width: 90vw;
   }
 }
-@media (max-width: 782px) {
+@media (max-width: 830px) {
   .col-full #main .entry-content .column_manufacture .wp-block-columns {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
   }
   .col-full #main .entry-content .column_manufacture .wp-block-columns .wp-block-column {
     flex-basis: 40vw !important;
