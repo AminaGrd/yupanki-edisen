@@ -391,8 +391,6 @@
   .col-full #main .entry-content .column-yupanki-edisen > div {
     width: 90vw;
   }
-}
-@media (max-width: 850px) {
   .col-full #main .entry-content .column_manufacture .wp-block-columns {
     display: flex;
     flex-wrap: wrap !important;
