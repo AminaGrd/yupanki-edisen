@@ -47,7 +47,7 @@
 }
 .col-full #main .entry-content h3 {
   text-align: left;
-  color: #2C2E35;
+  color: var(--mainGrey);
   font-weight: bold;
   font-size: 1.8rem;
 }

@@ -27,14 +27,14 @@
 							<li class="list-type-place">
 								Bourgogne Franche-Comté
 								<ul>
-									<li>Edisen Dijon</li>
+									<li>Edisen Dijon (21)</li>
 									<li>20 rue de Montmuzard</li>
 								</ul>
 							</li>
 							<li class="list-type-place">
 								Auvergne-Rhône-Alpes
 								<ul>
-									<li>Edisen Bourg-en-Bresse</li>
+									<li>Edisen Bourg-en-Bresse (01)</li>
 									<li>3 bd John Kennedy</li>
 								</ul>
 							</li>
