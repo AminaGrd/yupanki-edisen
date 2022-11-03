@@ -272,7 +272,7 @@
 }
 .col-full #main .entry-content .wpcf7-form > p {
   margin-bottom: 0.5rem;
-  color: var(--mainBlue);
+  color: black;
   font-weight: bold;
 }
 .col-full #main .entry-content .wpcf7-form > div {

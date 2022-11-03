@@ -35,7 +35,7 @@
 								Auvergne-Rhône-Alpes
 								<ul>
 									<li>Edisen Bourg-en-Bresse (01)</li>
-									<li>3 bd John Kennedy</li>
+									<li>3 bd John-Kennedy</li>
 								</ul>
 							</li>
 						</ul>
