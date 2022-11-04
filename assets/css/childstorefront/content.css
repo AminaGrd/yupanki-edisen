@@ -123,6 +123,10 @@
 .col-full #main .entry-content .button:active {
   box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
+.col-full #main .entry-content .link-red {
+  color: var(--mainRed);
+  text-decoration: none;
+}
 .col-full #main .entry-content .contact__infos {
   list-style-type: none;
   margin: 0;
