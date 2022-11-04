@@ -268,30 +268,32 @@
                 }
             }
             .list-libraries{
-                >ul{
-                    margin: 0;
-                    margin-left: 1rem;
-                    >li{
-                        color: var(--mainRed);
-                        list-style-type: none;
-                        &::before{
-                            content: "";
-                            background-image: url(../../images/childtheme/puce-h4.png);
-                            background-size: contain;
-                            background-position: center;
-                            background-repeat: no-repeat;
-                            width: 1.2rem;
-                            height: 1.2rem;
-                            display: inline-block;
-                            margin-right: 0.5rem;
-                            position: relative;
-                            top: 3px;
-                        }
-                        ul{
-                            li{
-                                list-style-type: none;
-                                color: var(--mainGrey);
-                                margin-left: 0.7rem;
+                .column-yupanki-edisen{
+                    >ul{
+                        margin: 0;
+                        margin-left: 1rem;
+                        >li{
+                            color: var(--mainRed);
+                            list-style-type: none;
+                            &::before{
+                                content: "";
+                                background-image: url(../../images/childtheme/puce-h4.png);
+                                background-size: contain;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                width: 1.2rem;
+                                height: 1.2rem;
+                                display: inline-block;
+                                margin-right: 0.5rem;
+                                position: relative;
+                                top: 3px;
+                            }
+                            ul{
+                                li{
+                                    list-style-type: none;
+                                    color: var(--mainGrey);
+                                    margin-left: 0.7rem;
+                                }
                             }
                         }
                     }
