@@ -248,6 +248,7 @@
 .col-full #main .entry-content .list-libraries .column-yupanki-edisen div > ul > li {
   color: var(--mainRed);
   list-style-type: none;
+  font-size: 1.1rem;
 }
 .col-full #main .entry-content .list-libraries .column-yupanki-edisen div > ul > li::before {
   content: "";
