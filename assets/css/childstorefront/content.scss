@@ -146,6 +146,9 @@
             .link-red{
                 color: var(--mainRed);
                 text-decoration: none;
+                &:hover{
+                    text-decoration: underline;
+                }
             }
             .contact__infos{
                 list-style-type: none;

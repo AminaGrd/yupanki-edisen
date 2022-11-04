@@ -127,6 +127,9 @@
   color: var(--mainRed);
   text-decoration: none;
 }
+.col-full #main .entry-content .link-red:hover {
+  text-decoration: underline;
+}
 .col-full #main .entry-content .contact__infos {
   list-style-type: none;
   margin: 0;
