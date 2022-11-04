@@ -269,7 +269,8 @@
             }
             .list-libraries{
                 .column-yupanki-edisen{
-                    >ul{
+                    div{
+                        >ul{
                         margin: 0;
                         margin-left: 1rem;
                         >li{
@@ -296,6 +297,7 @@
                                 }
                             }
                         }
+                    }
                     }
                 }
             }

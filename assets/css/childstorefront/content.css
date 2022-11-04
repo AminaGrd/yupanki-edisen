@@ -241,15 +241,15 @@
 .col-full #main .entry-content .column_manufacture .wp-block-columns:nth-child(2) .wp-block-column:nth-child(2), .col-full #main .entry-content .column_manufacture .wp-block-columns:nth-child(2) .wp-block-column:nth-child(4) {
   background-color: var(--mainBlue);
 }
-.col-full #main .entry-content .list-libraries .column-yupanki-edisen > ul {
+.col-full #main .entry-content .list-libraries .column-yupanki-edisen div > ul {
   margin: 0;
   margin-left: 1rem;
 }
-.col-full #main .entry-content .list-libraries .column-yupanki-edisen > ul > li {
+.col-full #main .entry-content .list-libraries .column-yupanki-edisen div > ul > li {
   color: var(--mainRed);
   list-style-type: none;
 }
-.col-full #main .entry-content .list-libraries .column-yupanki-edisen > ul > li::before {
+.col-full #main .entry-content .list-libraries .column-yupanki-edisen div > ul > li::before {
   content: "";
   background-image: url(../../images/childtheme/puce-h4.png);
   background-size: contain;
@@ -262,7 +262,7 @@
   position: relative;
   top: 3px;
 }
-.col-full #main .entry-content .list-libraries .column-yupanki-edisen > ul > li ul li {
+.col-full #main .entry-content .list-libraries .column-yupanki-edisen div > ul > li ul li {
   list-style-type: none;
   color: var(--mainGrey);
   margin-left: 0.7rem;
