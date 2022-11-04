@@ -237,7 +237,7 @@
                     .wp-block-column{
                         background-color: var(--mainBlue);
                         margin: 0;
-                        &:nth-child(2), &:nth-child(4){
+                        &:nth-child(2){
                             background-color: var(--mainRed);
                         }
                         p{
@@ -250,7 +250,7 @@
                             }
                         }
                     }
-                    &:last-child{
+                    &:nth-child(2){
                         .wp-block-column{
                             background-color: var(--mainRed);
                             &:nth-child(2), &:nth-child(4){
@@ -439,32 +439,32 @@
                         width: 90vw;
                     }
                 }
-                .column_manufacture{
-                    .wp-block-columns{
-                        display: flex;
-                        flex-wrap: wrap !important;
-                        .wp-block-column{
-                            flex-basis: 40vw !important;
-                            &:nth-child(2), &:nth-child(3){
-                                background-color: var(--mainRed);
-                            }
-                            &:nth-child(4){
-                                background-color: var(--mainBlue);
-                            }
-                        }
-                        &:last-child{
-                            .wp-block-column{
-                                background-color: var(--mainBlue);
-                                &:nth-child(2), &:nth-child(3){
-                                    background-color: var(--mainRed);
-                                }
-                                &:nth-child(4){
-                                    background-color: var(--mainBlue);
-                                }
-                            }
-                        }
-                    }
-                }
+                // .column_manufacture{
+                //     .wp-block-columns{
+                //         display: flex;
+                //         flex-wrap: wrap !important;
+                //         .wp-block-column{
+                //             flex-basis: 30vw !important;
+                //             &:nth-child(2), &:nth-child(3){
+                //                 background-color: var(--mainRed);
+                //             }
+                //             &:nth-child(4){
+                //                 background-color: var(--mainBlue);
+                //             }
+                //         }
+                //         &:last-child{
+                //             .wp-block-column{
+                //                 background-color: var(--mainBlue);
+                //                 &:nth-child(2), &:nth-child(3){
+                //                     background-color: var(--mainRed);
+                //                 }
+                //                 &:nth-child(4){
+                //                     background-color: var(--mainBlue);
+                //                 }
+                //             }
+                //         }
+                //     }
+                // }
             }
         }
         @media (max-width: 768px){
@@ -499,30 +499,30 @@
         }
         @media (max-width: 550px){
             .entry-content{
-                .column_manufacture{
-                    .wp-block-columns{
-                        .wp-block-column{
-                            flex-basis: 100% !important;
-                            &:nth-child(2), &:nth-child(4){
-                                background-color: var(--mainRed);
-                            }
-                            &:nth-child(3){
-                                background-color: var(--mainBlue);
-                            }
-                        }
-                        &:last-child{
-                            .wp-block-column{
-                                background-color: var(--mainBlue);
-                                &:nth-child(2), &:nth-child(4){
-                                    background-color: var(--mainRed);
-                                }
-                                &:nth-child(3){
-                                    background-color: var(--mainBlue);
-                                }
-                            }
-                        }
-                    }
-                }
+                // .column_manufacture{
+                //     .wp-block-columns{
+                //         .wp-block-column{
+                //             flex-basis: 100% !important;
+                //             &:nth-child(2), &:nth-child(4){
+                //                 background-color: var(--mainRed);
+                //             }
+                //             &:nth-child(3){
+                //                 background-color: var(--mainBlue);
+                //             }
+                //         }
+                //         &:last-child{
+                //             .wp-block-column{
+                //                 background-color: var(--mainBlue);
+                //                 &:nth-child(2), &:nth-child(4){
+                //                     background-color: var(--mainRed);
+                //                 }
+                //                 &:nth-child(3){
+                //                     background-color: var(--mainBlue);
+                //                 }
+                //             }
+                //         }
+                //     }
+                // }
                 .wpcf7-form{
                     >div{
                         flex-direction: column;
